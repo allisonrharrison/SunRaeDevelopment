@@ -105,7 +105,7 @@ const Projects = props => {
                 >
                   <CardImg
                     top
-                    src={require("../img/sunrae_screenshot.png")}
+                    src={require("../img/sunrae_homepage_screenshot.png")}
                     alt="Card image cap"
                   />
                 </a>
