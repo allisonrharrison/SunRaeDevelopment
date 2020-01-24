@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "96a56f83abeda706b39097006acc0714",
+    "revision": "758794d4bfae77a25da2b38b885758f4",
     "url": "/index.html"
   },
   {
-    "revision": "e12492cffd7db701499e",
+    "revision": "7126441d07b01159174c",
     "url": "/static/css/main.8dcbff03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.4b94efb9.chunk.js.LICENSE"
   },
   {
-    "revision": "e12492cffd7db701499e",
-    "url": "/static/js/main.1c87340f.chunk.js"
+    "revision": "7126441d07b01159174c",
+    "url": "/static/js/main.e9090fa1.chunk.js"
   },
   {
     "revision": "a0a65d26bd9ed1af549b",
@@ -120,7 +120,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/reactcourse_screenshot.fc1b04b0.png"
   },
   {
-    "revision": "5b3cf486f74c91b9ed8c343b9adcb7ac",
-    "url": "/static/media/sunrae_screenshot.5b3cf486.png"
+    "revision": "a28968f2891d1be683089090364b2b8b",
+    "url": "/static/media/sunrae_homepage_screenshot.a28968f2.png"
   }
 ]);
