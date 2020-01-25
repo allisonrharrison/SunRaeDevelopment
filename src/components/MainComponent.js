@@ -27,9 +27,9 @@ const Main = props => {
     if (activeTab !== tab) setActiveTab(tab);
   };
   return (
-    <div>
-      <Navbar color="light" light>
-      <Nav id="tabs" tabs>
+    <div width="90%">
+      <Navbar>
+      <Nav tabs id="tabs">
         <NavItem>
           <NavLink
             className={classnames({ active: activeTab === "1" })}
@@ -37,7 +37,7 @@ const Main = props => {
               toggle("1");
             }}
           >
-            <h5>Home</h5>
+            <h6 className="navtabs"><i style={{color: "steelblue"}} className="fas fa-home"></i> home</h6>
           </NavLink>
         </NavItem>
         <NavItem>
@@ -47,7 +47,7 @@ const Main = props => {
               toggle("2");
             }}
           >
-            <h5 style={{}}>About</h5>
+            <h6 className="navtabs"><i style={{color: "steelblue"}} className="fas fa-address-card"></i> about</h6>
           </NavLink>
         </NavItem>
         <NavItem>
@@ -57,7 +57,7 @@ const Main = props => {
               toggle("3");
             }}
           >
-            <h5>Projects</h5>
+            <h6 className="navtabs"><i style={{color: "steelblue"}} className="fas fa-folder-open"></i> portfolio</h6>
           </NavLink>
         </NavItem>
         <NavItem>
@@ -67,10 +67,10 @@ const Main = props => {
               toggle("4");
             }}
           >
-            <h5>Contact</h5>
+            <h6 className="navtabs"><i style={{color: "steelblue"}} className="fas fa-envelope"></i> contact</h6>
           </NavLink>
         </NavItem>
-      </Nav>
+        </Nav>
       <NavbarText>
         <span id="social">
             <a
@@ -90,16 +90,7 @@ const Main = props => {
             >
               <i className="fab fa-github-square fa-2x"></i>
             </a>
-            &nbsp;
-            <a
-              className="rainbow"
-              href="mailto:admin@sunrae.dev?Subject=Business%20Inquiry"
-              target="_blank"
-              title="Email"
-            >
-              <i className="fas fa-envelope-square fa-2x"></i>
-            </a>
-          </span>
+            </span>
           </NavbarText>
           </Navbar>
       <TabContent activeTab={activeTab}>

@@ -19,16 +19,9 @@ const Projects = props => {
     <div className="mt-5">
       {/* PERSONAL PROJECTS */}
       <h5>
-        <Button
-          color="light"
-          className="btn-block"
-          id="toggle1"
-          style={{ marginBottom: "1rem" }}
-        >
-          + PERSONAL PROJECTS
-        </Button>
+          PERSONAL PROJECTS
       </h5>
-      <UncontrolledCollapse toggler="#toggle1">
+      <hr />
         <Card style={{ border: "none" }}>
           <CardBody>
             <CardDeck>
@@ -49,8 +42,8 @@ const Projects = props => {
                   </CardTitle>
                   <CardText>
                     <p>
-                      My first collaborative project: A website for a local
-                      tattoo business. I built the home page.
+                      My first project: A website for a local
+                      tattoo business.
                     </p>
                     <p>
                       <strong>Features:</strong> Bootstrap 4
@@ -59,7 +52,8 @@ const Projects = props => {
                   <a
                     href="https://github.com/allisonrharrison/MindsEyeTattooStudio"
                     target="_blank"
-                    className="btn btn-sm btn-dark text-white"
+                    className="btn btn-sm text-white"
+                    style={{backgroundColor: "steelblue"}}
                   >
                     <i className="fab fa-github"></i> View on GitHub
                   </a>
@@ -92,7 +86,8 @@ const Projects = props => {
                   <a
                     href="https://github.com/allisonrharrison/ILNP"
                     target="_blank"
-                    className="btn btn-sm btn-dark text-white"
+                    className="btn btn-sm text-white"
+                    style={{backgroundColor: "steelblue"}}
                   >
                     <i className="fab fa-github"></i> View on GitHub
                   </a>
@@ -122,7 +117,8 @@ const Projects = props => {
                   <a
                     href="https://github.com/allisonrharrison/SunRae"
                     target="_blank"
-                    className="btn btn-sm btn-dark text-white"
+                    className="btn btn-sm text-white"
+                    style={{backgroundColor: "steelblue"}}
                   >
                     <i className="fab fa-github"></i> View on GitHub
                   </a>
@@ -131,21 +127,13 @@ const Projects = props => {
             </CardDeck>
           </CardBody>
         </Card>
-      </UncontrolledCollapse>
 
       {/* JUST FOR FUN */}
 
-      <h5>
-        <Button
-          color="light"
-          className="btn-block"
-          id="toggle2"
-          style={{ marginBottom: "1rem" }}
-        >
-          + JUST FOR FUN
-        </Button>
+      <h5 className="mt-5">
+          JUST FOR FUN
       </h5>
-      <UncontrolledCollapse toggler="#toggle2">
+      <hr />
         <Card style={{ border: "none" }}>
           <CardBody>
             <CardDeck>
@@ -176,7 +164,8 @@ const Projects = props => {
                   <a
                     href="https://codepen.io/allisonrharrison/pen/ExYXJoe"
                     target="_blank"
-                    className="btn btn-sm btn-dark text-white"
+                    className="btn btn-sm text-white"
+                    style={{backgroundColor: "steelblue"}}
                   >
                     <i className="fab fa-codepen"></i> Demo on CodePen
                   </a>
@@ -209,7 +198,8 @@ const Projects = props => {
                   <a
                     href="https://codepen.io/allisonrharrison/pen/PoYjgRZ"
                     target="_blank"
-                    className="btn btn-sm btn-dark text-white"
+                    className="btn btn-sm text-white"
+                    style={{backgroundColor: "steelblue"}}
                   >
                     <i className="fab fa-codepen"></i> Demo on CodePen
                   </a>
@@ -242,7 +232,8 @@ const Projects = props => {
                   <a
                     href="https://codepen.io/allisonrharrison/pen/YzKxLoz"
                     target="_blank"
-                    className="btn btn-sm btn-dark text-white"
+                    className="btn btn-sm text-white"
+                    style={{backgroundColor: "steelblue"}}
                   >
                     <i className="fab fa-codepen"></i> Demo on CodePen
                   </a>
@@ -251,21 +242,13 @@ const Projects = props => {
             </CardDeck>
           </CardBody>
         </Card>
-      </UncontrolledCollapse>
 
       {/* SCHOOL PROJECTS */}
 
-      <h5>
-        <Button
-          color="light"
-          className="btn-block"
-          id="toggle3"
-          style={{ marginBottom: "1rem" }}
-        >
-          + SCHOOL PROJECTS
-        </Button>
+      <h5 className="mt-5">
+          SCHOOL PROJECTS
       </h5>
-      <UncontrolledCollapse toggler="#toggle3">
+      <hr />
         <Card style={{ border: "none" }}>
           <CardBody>
             <CardDeck>
@@ -296,7 +279,8 @@ const Projects = props => {
                   <a
                     href="https://github.com/allisonrharrison/conFusion"
                     target="_blank"
-                    className="btn btn-sm btn-dark text-white"
+                    className="btn btn-sm text-white"
+                    style={{backgroundColor: "steelblue"}}
                   >
                     <i className="fab fa-github"></i> View on GitHub
                   </a>
@@ -329,7 +313,8 @@ const Projects = props => {
                   <a
                     href="https://github.com/allisonrharrison/React"
                     target="_blank"
-                    className="btn btn-sm btn-dark text-white"
+                    className="btn btn-sm text-white"
+                    style={{backgroundColor: "steelblue"}}
                   >
                     <i className="fab fa-github"></i> View on GitHub
                   </a>
@@ -359,7 +344,8 @@ const Projects = props => {
                   <a
                     href="https://github.com/allisonrharrison/NativeConfusion"
                     target="_blank"
-                    className="btn btn-sm btn-dark text-white"
+                    className="btn btn-sm text-white"
+                    style={{backgroundColor: "steelblue"}}
                   >
                     <i className="fab fa-github"></i> View on GitHub
                   </a>
@@ -388,7 +374,8 @@ const Projects = props => {
                   <a
                     href="https://github.com/allisonrharrison/conFusionServer"
                     target="_blank"
-                    className="btn btn-sm btn-dark text-white"
+                    className="btn btn-sm text-white"
+                    style={{backgroundColor: "steelblue"}}
                   >
                     <i className="fab fa-github"></i> View on GitHub
                   </a>
@@ -397,7 +384,6 @@ const Projects = props => {
             </CardDeck>
           </CardBody>
         </Card>
-      </UncontrolledCollapse>
     </div>
   );
 };
