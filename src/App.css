@@ -1,5 +1,62 @@
-.navtabs {
-  color: black;
+body {
+  background-size: cover;
+  background-position: center;
+  background: rgb(103, 142, 173);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(103, 142, 173, 1) 0%,
+    rgba(255, 255, 255, 1) 10%,
+    rgba(255, 255, 255, 1) 90%,
+    rgba(103, 142, 173, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(103, 142, 173, 1) 0%,
+    rgba(255, 255, 255, 1) 10%,
+    rgba(255, 255, 255, 1) 90%,
+    rgba(103, 142, 173, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(103, 142, 173, 1) 0%,
+    rgba(255, 255, 255, 1) 10%,
+    rgba(255, 255, 255, 1) 90%,
+    rgba(103, 142, 173, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#678ead",endColorstr="#678ead",GradientType=1);
+}
+
+.container {
+  background-color: white;
+}
+
+.panel {
+  background-color: white;
+  padding: 100px 0 100px 0;
+}
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: white;
+}
+
+.v-nav {
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  width: 97%;
+}
+.v-navlink {
+  padding: 1rem 4rem;
+  color: #000000;
+}
+
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 p {
@@ -16,7 +73,7 @@ h5 {
 
 h6 {
   font-family: "Josefin Sans", sans-serif;
-  text-align: center;
+  text-align: left;
 }
 
 #poweredby {
@@ -77,21 +134,36 @@ a:hover {
   transform: scale(1.05);
 }
 
-#social {
-  display: flex;
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-}
-
 #social a {
   text-decoration: none;
-  color: #315B7E;
+  color: #315b7e;
 }
 
 #social a:hover {
   text-decoration: none;
   color: steelblue;
+}
+
+#logo {
+  background-image: url("./img/clouds.gif");
+  background-size: cover;
+  background-position: center center;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 120px;
+  line-height: 0.75;
+  margin: 10px 0;
+  padding-top: 50px;
+}
+
+#logoImg {
+  background-image: url("./img/logo.jpg");
+}
+
+html.sr .load-hidden {
+  visibility: hidden;
 }
 
 /*.rainbow:hover {
@@ -240,28 +312,3 @@ a:hover {
     color: #ff0080;
   }
 }*/
-
-#logo {
-  background-image: url("./img/clouds.gif");
-  background-size: cover;
-  background-position: center center;
-  color: transparent;
-  -moz-background-clip: text;
-  -webkit-background-clip: text;
-  text-transform: uppercase;
-  font-size: 120px;
-  line-height: 0.75;
-  margin: 10px 0;
-}
-
-#logoImg {
-  background-image: url("./img/logo.jpg");
-}
-
-html.sr .load-hidden {
-  visibility: hidden;
-}
-
-#tabs {
-  width: 100%;
-}

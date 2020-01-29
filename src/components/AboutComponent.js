@@ -1,12 +1,15 @@
 import React from "react";
+import { Fade } from "react-reveal";
 
 function About() {
   return (
-    <div className="mt-5">
-      <h4>about</h4>
-      <h4>coming soon</h4>
-    </div>
-  )
+      <div className="panel" id="about">
+        <Fade>
+          <h3>ABOUT</h3>
+          <h3>COMING SOON</h3>
+        </Fade>
+      </div>
+  );
 }
 
 export default About;

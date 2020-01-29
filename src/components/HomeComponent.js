@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Fade } from 'react-reveal';
+import Navigation from "./NavComponent";
 
 class Home extends Component {
   constructor(props) {
@@ -21,13 +23,13 @@ class Home extends Component {
 
   render() {
     return (
-      <div className="container mt-4">
-        <div className="col">
-          <img
+      <div className="panel" id="home">
+          {/*<img
             className="mx-auto d-block"
             src={require("../img/logo.jpg")}
             width="200px"
-          />
+          /> */}
+          <Fade>
           <h1 id="logo">
             SUN
             <br />
@@ -52,9 +54,10 @@ class Home extends Component {
                 REACT.js
                 </a>
               </span>
+              
           </p>
+          </Fade>
         </div>
-      </div>
     );
   }
 }
