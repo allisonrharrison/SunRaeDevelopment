@@ -18,6 +18,8 @@ class School extends React.Component {
       <Card style={{ border: "none" }}>
         <CardBody>
           <CardDeck>
+            
+            {/* BOOTSTRAP */}
             <Card className="text-center proj col-sm-12">
               <a
                 href="https://github.com/allisonrharrison/conFusion"
@@ -42,7 +44,7 @@ class School extends React.Component {
                     <strong>Features:</strong> Bootstrap 4, Grunt
                   </p>
                 </CardText>
-                <a href="/" target="_blank" className="btn btn-sm btn-secondary text-white"
+                <a href="/" target="_blank" className="btn btn-sm text-white"
                 >
                   <i className="fas fa-external-link-alt fa-sm"></i> Visit Site
                 </a>
@@ -50,13 +52,15 @@ class School extends React.Component {
                 <a
                   href="https://github.com/allisonrharrison/MindsEyeTattooStudio"
                   target="_blank"
-                  className="btn btn-sm btn-secondary text-white"
+                  className="btn btn-sm text-white"
                   
                 >
-                  <i className="fab fa-github"></i> View Code on GitHub
+                  <i className="fab fa-github"></i> View on GitHub
                 </a>
               </CardBody>
             </Card>
+
+            {/* REACT */}
             <Card className="text-center proj col-sm-12">
               <a
                 href="https://github.com/allisonrharrison/React"
@@ -81,7 +85,7 @@ class School extends React.Component {
                     <strong>Features:</strong> React, Redux
                   </p>
                 </CardText>
-                <a href="/" target="_blank" className="btn btn-sm btn-secondary text-white"
+                <a href="/" target="_blank" className="btn btn-sm text-white"
                 >
                   <i className="fas fa-external-link-alt fa-sm"></i> Visit Site
                 </a>
@@ -89,13 +93,15 @@ class School extends React.Component {
                 <a
                   href="https://github.com/allisonrharrison/MindsEyeTattooStudio"
                   target="_blank"
-                  className="btn btn-sm btn-secondary text-white"
+                  className="btn btn-sm text-white"
                   
                 >
-                  <i className="fab fa-github"></i> View Code on GitHub
+                  <i className="fab fa-github"></i> View on GitHub
                 </a>
               </CardBody>
             </Card>
+
+            {/* REACT NATIVE */}
             <Card className="text-center proj col-sm-12">
               <a
                 href="https://github.com/allisonrharrison/NativeConfusion"
@@ -117,7 +123,7 @@ class School extends React.Component {
                     <strong>Features:</strong> React Native
                   </p>
                 </CardText>
-                <a href="/" target="_blank" className="btn btn-sm btn-secondary text-white"
+                <a href="/" target="_blank" className="btn btn-sm text-white"
                 >
                   <i className="fas fa-external-link-alt fa-sm"></i> Visit Site
                 </a>
@@ -125,13 +131,15 @@ class School extends React.Component {
                 <a
                   href="https://github.com/allisonrharrison/MindsEyeTattooStudio"
                   target="_blank"
-                  className="btn btn-sm btn-secondary text-white"
+                  className="btn btn-sm text-white"
                   
                 >
-                  <i className="fab fa-github"></i> View Code on GitHub
+                  <i className="fab fa-github"></i> View on GitHub
                 </a>
               </CardBody>
             </Card>
+
+            {/* EXPRESS */}
             <Card className="text-center proj col-sm-12">
               <a
                 href="https://github.com/allisonrharrison/conFusionServer"
@@ -152,7 +160,7 @@ class School extends React.Component {
                     <strong>Features:</strong> Node.js, Express, MongoDB
                   </p>
                 </CardText>
-                <a href="/" target="_blank" className="btn btn-sm btn-secondary text-white"
+                <a href="/" target="_blank" className="btn btn-sm text-white"
                 >
                   <i className="fas fa-external-link-alt fa-sm"></i> Visit Site
                 </a>
@@ -160,10 +168,10 @@ class School extends React.Component {
                 <a
                   href="https://github.com/allisonrharrison/MindsEyeTattooStudio"
                   target="_blank"
-                  className="btn btn-sm btn-secondary text-white"
+                  className="btn btn-sm text-white"
                   
                 >
-                  <i className="fab fa-github"></i> View Code on GitHub
+                  <i className="fab fa-github"></i> View on GitHub
                 </a>
               </CardBody>
             </Card>
@@ -171,6 +179,7 @@ class School extends React.Component {
         </CardBody>
       </Card>
       </Fade>
+      <hr />
       </div>
     )
   }

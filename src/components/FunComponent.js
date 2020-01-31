@@ -45,7 +45,7 @@ class Fun extends React.Component {
                 <a
                   href="https://codepen.io/allisonrharrison/pen/ExYXJoe"
                   target="_blank"
-                  className="btn btn-sm btn-secondary text-white"
+                  className="btn btn-sm text-white"
                 >
                   <i className="fab fa-codepen"></i> Demo on CodePen
                 </a>
@@ -78,7 +78,7 @@ class Fun extends React.Component {
                 <a
                   href="https://codepen.io/allisonrharrison/pen/PoYjgRZ"
                   target="_blank"
-                  className="btn btn-sm btn-secondary text-white"
+                  className="btn btn-sm text-white"
                 >
                   <i className="fab fa-codepen"></i> Demo on CodePen
                 </a>
@@ -111,7 +111,7 @@ class Fun extends React.Component {
                 <a
                   href="https://codepen.io/allisonrharrison/pen/YzKxLoz"
                   target="_blank"
-                  className="btn btn-sm btn-secondary text-white"
+                  className="btn btn-sm text-white"
                 >
                   <i className="fab fa-codepen"></i> Demo on CodePen
                 </a>
@@ -121,6 +121,7 @@ class Fun extends React.Component {
         </CardBody>
       </Card>
       </Fade>
+      <hr />
       </div>
     )
   }
