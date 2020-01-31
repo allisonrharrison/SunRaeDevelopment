@@ -24,11 +24,6 @@ class Home extends Component {
   render() {
     return (
       <div className="panel" id="home">
-          {/*<img
-            className="mx-auto d-block"
-            src={require("../img/logo.jpg")}
-            width="200px"
-          /> */}
           <Fade>
           <h1 id="logo">
             SUN
@@ -57,6 +52,7 @@ class Home extends Component {
               
           </p>
           </Fade>
+          <hr />
         </div>
     );
   }

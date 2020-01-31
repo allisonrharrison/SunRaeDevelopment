@@ -32,12 +32,11 @@ body {
 
 .panel {
   background-color: white;
-  padding: 100px 0 100px 0;
+  padding: 50px 0 50px 0;
 }
 
 hr {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
   background-color: white;
 }
 
@@ -47,9 +46,34 @@ hr {
   background-color: white;
   width: 97%;
 }
+
 .v-navlink {
-  padding: 1rem 4rem;
+  padding: 1rem 2rem;
   color: #000000;
+  background: white;
+
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.v-navlink:hover {
+  text-decoration: none;
+  animation-name: pulldown;
+  animation-duration: 0.25s;
+  border-top: 8px solid #4682b4;
+}
+
+@keyframes pulldown {
+  0% { border-top: 0px solid #ffffff; }
+  10% { border-top: 0.5px solid #f0f5f9; }
+  20% { border-top: 1px solid #d1e0ec; }
+  30% { border-top: 1.5px solid #b2cbe0; }
+  40% { border-top: 2px solid #a2c1da; }
+  50% { border-top: 2.5px solid #93b6d3; }
+  60% { border-top: 3px solid #84accd; }
+  70% { border-top: 3.5px solid #74a1c7; }
+  80% { border-top: 4px solid #6597c1; }
+  90% { border-top: 4.5px solid #558cba; }
+  100% { border-top: 5px solid #4682b4; }
 }
 
 h3 {
@@ -72,8 +96,8 @@ h5 {
 }
 
 h6 {
-  font-family: "Josefin Sans", sans-serif;
-  text-align: left;
+  font-family: "Alegreya Sans SC", sans-serif;
+  text-align: center;
 }
 
 #poweredby {
@@ -113,6 +137,7 @@ h1 {
 
 .btn {
   color: #000000;
+  background-color: steelblue;
 }
 
 .btn:hover {
