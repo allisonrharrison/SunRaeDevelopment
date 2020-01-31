@@ -63,7 +63,7 @@ class Personal extends React.Component {
                 {/* ILNP */}
                 <Card className="text-center proj col-sm-12">
                   <a
-                    href="https://github.com/allisonrharrison/ILNP"
+                    href="https://allisonrharrison.github.io/ILNP"
                     target="_blank"
                   >
                     <CardImg
@@ -86,7 +86,7 @@ class Personal extends React.Component {
                       </p>
                     </CardText>
                     <a
-                      href="/"
+                      href="https://allisonrharrison.github.io/ILNP"
                       target="_blank"
                       className="btn btn-sm text-white"
                     >
@@ -95,7 +95,7 @@ class Personal extends React.Component {
                     </a>
                     &nbsp;
                     <a
-                      href="https://github.com/allisonrharrison/MindsEyeTattooStudio"
+                      href="https://github.com/allisonrharrison/ILNP"
                       target="_blank"
                       className="btn btn-sm text-white"
                     >
