@@ -8,6 +8,7 @@ function About() {
           <h3>ABOUT</h3>
           <h3>COMING SOON</h3>
         </Fade>
+        <hr />
       </div>
   );
 }
