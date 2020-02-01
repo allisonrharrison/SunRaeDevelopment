@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import {
+  Button,
+  ButtonGroup,
   CardBody,
-  CardHeader,
+  CardTitle,
   CardImg,
   Card,
   CardDeck,
@@ -14,7 +16,7 @@ class Personal extends React.Component {
     return (
       <div className="panel">
         <Fade>
-          <h5 className="mb-5">PERSONAL PROJECTS</h5>
+          <h3 className="mb-5">PERSONAL PROJECTS</h3>
           <Card style={{ border: "none" }}>
             <CardBody>
               <CardDeck>
@@ -24,59 +26,62 @@ class Personal extends React.Component {
                     href="https://allisonrharrison.github.io/MindsEyeTattooStudio/index.html"
                     target="_blank"
                   >
-                    <CardImg
-                      top
+                    <CardImg top
                       src={require("../img/METS_screenshot.png")}
                       alt="Card image cap"
                     />
                   </a>
                   <CardBody>
-                    <CardHeader>
+                    <CardTitle>
                       <h5>mind's eye tattoo</h5>
-                    </CardHeader>
-                    <CardText className="mt-2">
+                    </CardTitle>
+                    <CardText className="mt-3">
                       <p>
-                        My first project: A website for a local tattoo business.
+                        A website for a local tattoo business.
                       </p>
                       <p>
                         <strong>Features:</strong> Bootstrap 4
                       </p>
                     </CardText>
-                    <a
+                    <hr />
+                    <Button
+                    className="aboutbtn"
                       href="https://allisonrharrison.github.io/MindsEyeTattooStudio/index.html"
                       target="_blank"
-                      className="btn btn-sm text-white"
+                      size="sm"
                     >
                       <i className="fas fa-external-link-alt fa-sm"></i> Visit
                       Site
-                    </a>
-                    &nbsp;
-                    <a
+                    </Button>
+                    <Button
+                    className="aboutbtn"
                       href="https://github.com/allisonrharrison/MindsEyeTattooStudio"
                       target="_blank"
-                      className="btn btn-sm text-white"
+                      size="sm"
                     >
                       <i className="fab fa-github"></i> View on GitHub
-                    </a>
+                    </Button>
                   </CardBody>
                 </Card>
                 {/* ILNP */}
                 <Card className="text-center proj col-sm-12">
-                  <a
+                  <Button
+                  className="aboutbtn"
                     href="https://allisonrharrison.github.io/ILNP"
                     target="_blank"
+                    size="sm"
                   >
                     <CardImg
                       top
                       src={require("../img/ILNP_screenshot.png")}
                       alt="Card image cap"
                     />
-                  </a>
+                  </Button>
                   <CardBody>
-                    <CardHeader>
+                    <CardTitle>
                       <h5>ilnp</h5>
-                    </CardHeader>
-                    <CardText className="mt-2">
+                    </CardTitle>
+                    <CardText className="mt-3">
                       <p>
                         Rebuilding a web store in React for increased
                         efficiency.
@@ -85,22 +90,24 @@ class Personal extends React.Component {
                         <strong>Features:</strong> React, Redux
                       </p>
                     </CardText>
-                    <a
+                    <hr />
+                    <Button
+                    className="aboutbtn"
                       href="https://allisonrharrison.github.io/ILNP"
                       target="_blank"
-                      className="btn btn-sm text-white"
+                      size="sm"
                     >
                       <i className="fas fa-external-link-alt fa-sm"></i> Visit
                       Site
-                    </a>
-                    &nbsp;
-                    <a
+                    </Button>
+                    <Button
+                    className="aboutbtn"
                       href="https://github.com/allisonrharrison/ILNP"
                       target="_blank"
-                      className="btn btn-sm text-white"
+                      size="sm"
                     >
                       <i className="fab fa-github"></i> View on GitHub
-                    </a>
+                    </Button>
                   </CardBody>
                 </Card>
                 {/* SUN RAE DEVELOPMENT */}
@@ -113,10 +120,10 @@ class Personal extends React.Component {
                     />
                   </a>
                   <CardBody>
-                    <CardHeader>
+                    <CardTitle>
                       <h5>sun rae development</h5>
-                    </CardHeader>
-                    <CardText className="mt-2">
+                    </CardTitle>
+                    <CardText className="mt-3">
                       <p>
                         This website! My personal web development portfolio.
                       </p>
@@ -124,29 +131,28 @@ class Personal extends React.Component {
                         <strong>Features:</strong> Bootstrap 4
                       </p>
                     </CardText>
-                    <a
-                      href="/"
-                      target="_blank"
-                      className="btn btn-sm text-white"
+                    <hr />
+                    <Button
+                    className="aboutbtn"
+                      size="sm"
                     >
                       <i className="fas fa-external-link-alt fa-sm"></i> Visit
                       Site
-                    </a>
-                    &nbsp;
-                    <a
+                    </Button>
+                    <Button
+                    className="aboutbtn"
                       href="https://github.com/allisonrharrison/sunraedevelopment"
                       target="_blank"
-                      className="btn btn-sm text-white"
+                      size="sm"
                     >
                       <i className="fab fa-github"></i> View on GitHub
-                    </a>
+                    </Button>
                   </CardBody>
                 </Card>
               </CardDeck>
             </CardBody>
           </Card>
         </Fade>
-        <hr />
       </div>
     );
   }

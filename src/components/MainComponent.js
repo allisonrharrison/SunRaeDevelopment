@@ -9,11 +9,11 @@ class Main extends React.Component {
 
   render() {
     return(
-      <div className="col-12">
+      <div className="container">
       <Navigation />
       <Home />
-      <Projects />
       <About />
+      <Projects />
       <Contact />
       </div>
     )

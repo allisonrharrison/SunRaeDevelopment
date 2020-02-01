@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import {
+  Button,
   CardBody,
-  CardHeader,
+  CardTitle,
   CardImg,
   Card,
   CardDeck,
@@ -14,11 +15,11 @@ class School extends React.Component {
     return(
         <div className="panel">
           <Fade>
-        <h5 className="mb-5">SCHOOL PROJECTS</h5>
+        <h3 className="mb-5">SCHOOL PROJECTS</h3>
       <Card style={{ border: "none" }}>
         <CardBody>
           <CardDeck>
-            
+
             {/* BOOTSTRAP */}
             <Card className="text-center proj col-sm-12">
               <a
@@ -32,9 +33,9 @@ class School extends React.Component {
                 />
               </a>
               <CardBody>
-                <CardHeader>
-                  <h5>restaurant site</h5>
-                </CardHeader>
+                <CardTitle>
+                  <h5>bootstrap site</h5>
+                </CardTitle>
                 <CardText>
                   <p>
                     Webpage for a fictional restaurant with an adaptive layout
@@ -44,19 +45,21 @@ class School extends React.Component {
                     <strong>Features:</strong> Bootstrap 4, Grunt
                   </p>
                 </CardText>
-                <a href="/" target="_blank" className="btn btn-sm text-white"
+                <hr />
+                <Button className="aboutbtn" href="/" target="_blank" size="sm"
                 >
                   <i className="fas fa-external-link-alt fa-sm"></i> Visit Site
-                </a>
-                &nbsp;
-                <a
+                </Button>
+                
+                <Button
+                className="aboutbtn"
                   href="https://github.com/allisonrharrison/MindsEyeTattooStudio"
                   target="_blank"
-                  className="btn btn-sm text-white"
+                  size="sm"
                   
                 >
                   <i className="fab fa-github"></i> View on GitHub
-                </a>
+                </Button>
               </CardBody>
             </Card>
 
@@ -73,9 +76,9 @@ class School extends React.Component {
                 />
               </a>
               <CardBody>
-                <CardHeader>
+                <CardTitle>
                   <h5>react app</h5>
-                </CardHeader>
+                </CardTitle>
                 <CardText>
                   <p>
                     A single-page application for a fictional restaurant with
@@ -85,19 +88,20 @@ class School extends React.Component {
                     <strong>Features:</strong> React, Redux
                   </p>
                 </CardText>
-                <a href="/" target="_blank" className="btn btn-sm text-white"
+                <hr />
+                <Button className="aboutbtn" href="/" target="_blank" size="sm"
                 >
                   <i className="fas fa-external-link-alt fa-sm"></i> Visit Site
-                </a>
-                &nbsp;
-                <a
+                </Button>
+                <Button
+                className="aboutbtn"
                   href="https://github.com/allisonrharrison/MindsEyeTattooStudio"
                   target="_blank"
-                  className="btn btn-sm text-white"
+                  size="sm"
                   
                 >
                   <i className="fab fa-github"></i> View on GitHub
-                </a>
+                </Button>
               </CardBody>
             </Card>
 
@@ -110,9 +114,9 @@ class School extends React.Component {
                 <CardImg top src="" alt="Card image cap" />
               </a>
               <CardBody>
-                <CardHeader>
+                <CardTitle>
                   <h5>react native app</h5>
-                </CardHeader>
+                </CardTitle>
                 <CardText>
                   <p>
                     An Android application for a fictional restaurant,
@@ -123,23 +127,25 @@ class School extends React.Component {
                     <strong>Features:</strong> React Native
                   </p>
                 </CardText>
-                <a href="/" target="_blank" className="btn btn-sm text-white"
+                <hr />
+                <Button className="aboutbtn" href="/" target="_blank" size="sm"
                 >
                   <i className="fas fa-external-link-alt fa-sm"></i> Visit Site
-                </a>
-                &nbsp;
-                <a
+                </Button>
+                
+                <Button
+                className="aboutbtn"
                   href="https://github.com/allisonrharrison/MindsEyeTattooStudio"
                   target="_blank"
-                  className="btn btn-sm text-white"
+                  size="sm"
                   
                 >
                   <i className="fab fa-github"></i> View on GitHub
-                </a>
+                </Button>
               </CardBody>
             </Card>
 
-            {/* EXPRESS */}
+            {/* EXPRESS 
             <Card className="text-center proj col-sm-12">
               <a
                 href="https://github.com/allisonrharrison/conFusionServer"
@@ -148,9 +154,9 @@ class School extends React.Component {
                 <CardImg top src="" alt="Card image cap" />
               </a>
               <CardBody>
-                <CardHeader>
+                <CardTitle>
                   <h5>express server</h5>
-                </CardHeader>
+                </CardTitle>
                 <CardText>
                   <p>
                     Server and database for a fictional restaurant with routing
@@ -160,7 +166,7 @@ class School extends React.Component {
                     <strong>Features:</strong> Node.js, Express, MongoDB
                   </p>
                 </CardText>
-                <a href="/" target="_blank" className="btn btn-sm text-white"
+                <a href="/" target="_blank" size="sm"
                 >
                   <i className="fas fa-external-link-alt fa-sm"></i> Visit Site
                 </a>
@@ -168,18 +174,17 @@ class School extends React.Component {
                 <a
                   href="https://github.com/allisonrharrison/MindsEyeTattooStudio"
                   target="_blank"
-                  className="btn btn-sm text-white"
+                  size="sm"
                   
                 >
                   <i className="fab fa-github"></i> View on GitHub
                 </a>
               </CardBody>
-            </Card>
+            </Card>*/}
           </CardDeck>
         </CardBody>
       </Card>
       </Fade>
-      <hr />
       </div>
     )
   }

@@ -16,7 +16,6 @@ const Navigation = props => {
   const toggleNavbar = () => setCollapsed(!collapsed);
 
   return (
-    <div>
       <Navbar light expand="sm" className="v-nav">
         <NavbarToggler onClick={toggleNavbar} className="" />
         <Collapse isOpen={!collapsed} navbar>
@@ -33,17 +32,6 @@ const Navigation = props => {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#projects" className="v-navlink">
-                <h6>
-                  <i
-                    style={{ color: "steelblue" }}
-                    className="fas fa-folder-open fa-sm"
-                  ></i>{" "}
-                  projects
-                </h6>
-              </NavLink>
-            </NavItem>
-            <NavItem>
               <NavLink href="#about" className="v-navlink">
                 <h6>
                   <i
@@ -51,6 +39,17 @@ const Navigation = props => {
                     className="fas fa-address-card fa-sm"
                   ></i>{" "}
                   about
+                </h6>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#projects" className="v-navlink">
+                <h6>
+                  <i
+                    style={{ color: "steelblue" }}
+                    className="fas fa-folder-open fa-sm"
+                  ></i>{" "}
+                  projects
                 </h6>
               </NavLink>
             </NavItem>
@@ -98,7 +97,6 @@ const Navigation = props => {
           </Nav>
         </Collapse>
       </Navbar>
-    </div>
   );
 };
 

@@ -52,7 +52,6 @@ class Home extends Component {
               
           </p>
           </Fade>
-          <hr />
         </div>
     );
   }

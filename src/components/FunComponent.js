@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import {
+  Button,
   CardBody,
-  CardHeader,
+  CardTitle,
   CardImg,
   Card,
   CardDeck,
@@ -14,7 +15,7 @@ class Fun extends React.Component {
     return(
         <div className="panel">
           <Fade>
-        <h5 className="mb-5">JUST FOR FUN</h5>
+        <h3 className="mb-5">FUN PROJECTS</h3>
       <Card style={{ border: "none" }}>
         <CardBody>
           <CardDeck>
@@ -30,9 +31,9 @@ class Fun extends React.Component {
                 />
               </a>
               <CardBody>
-                <CardHeader>
+                <CardTitle>
                   <h5>leap year calculator</h5>
-                </CardHeader>
+                </CardTitle>
                 <CardText className="mt-2">
                   <p className="card-text">
                     A basic app which will take in any year & calculate if it is
@@ -42,13 +43,15 @@ class Fun extends React.Component {
                     <strong>Features:</strong> HTML, CSS, JavaScript
                   </p>
                 </CardText>
-                <a
+                <hr />
+                <Button
+                className="aboutbtn"
                   href="https://codepen.io/allisonrharrison/pen/ExYXJoe"
                   target="_blank"
-                  className="btn btn-sm text-white"
+                  size="sm"
                 >
                   <i className="fab fa-codepen"></i> Demo on CodePen
-                </a>
+                </Button>
               </CardBody>
             </Card>
             <Card className="text-center proj col-sm-12">
@@ -63,9 +66,9 @@ class Fun extends React.Component {
                 />
               </a>
               <CardBody>
-                <CardHeader>
+                <CardTitle>
                   <h5>magic eight ball</h5>
-                </CardHeader>
+                </CardTitle>
                 <CardText className="mt-2">
                   <p>
                     Input a question & the app will randomly generate your
@@ -75,13 +78,15 @@ class Fun extends React.Component {
                     <strong>Features:</strong> HTML, CSS, JavaScript
                   </p>
                 </CardText>
-                <a
+                <hr />
+                <Button
+                className="aboutbtn"
                   href="https://codepen.io/allisonrharrison/pen/PoYjgRZ"
                   target="_blank"
-                  className="btn btn-sm text-white"
+                  size="sm"
                 >
                   <i className="fab fa-codepen"></i> Demo on CodePen
-                </a>
+                </Button>
               </CardBody>
             </Card>
             <Card className="text-center proj col-sm-12">
@@ -96,9 +101,9 @@ class Fun extends React.Component {
                 />
               </a>
               <CardBody>
-                <CardHeader>
+                <CardTitle>
                   <h5>smiley matching game</h5>
-                </CardHeader>
+                </CardTitle>
                 <CardText className="mt-2">
                   <p>
                     Click the extra smiley on the left to advance to the next
@@ -108,20 +113,21 @@ class Fun extends React.Component {
                 <p>
                   <strong>Features:</strong> HTML, CSS, JavaScript
                 </p>
-                <a
+                <hr />
+                <Button
+                className="aboutbtn"
                   href="https://codepen.io/allisonrharrison/pen/YzKxLoz"
                   target="_blank"
-                  className="btn btn-sm text-white"
+                  size="sm"
                 >
                   <i className="fab fa-codepen"></i> Demo on CodePen
-                </a>
+                </Button>
               </CardBody>
             </Card>
           </CardDeck>
         </CardBody>
       </Card>
       </Fade>
-      <hr />
       </div>
     )
   }

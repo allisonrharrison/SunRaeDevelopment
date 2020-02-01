@@ -32,26 +32,77 @@ body {
 
 .panel {
   background-color: white;
-  padding: 50px 0 50px 0;
+  padding-bottom: 120px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Caveat Brush", sans-serif;
+  padding-bottom: 15px;
+}
+
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: steelblue;
+  color: white;
+  padding-top: 5px;
+  margin: 100px 0px;
+}
+
+h4 {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  background-color: #f0f5f9;
+  background-size: cover;
+  padding-top: 2px;
+}
+
+h6 {
+  font-family: "Alegreya Sans SC", sans-serif;
+  text-align: center;
+}
+
+p, li {
+  font-family: 'Lucida Sans Typewriter', monospace;
+  font-size: 14px;
+}
+
+a,
+a:hover {
+  text-decoration: none;
 }
 
 hr {
-  margin-top: 100px;
+  margin-top: 40px;
   background-color: white;
 }
 
 .v-nav {
   position: fixed;
-  z-index: 1;
+  top: 0;
+  left: 5.5%;
+  width: 89%;
+  z-index: 20;
   background-color: white;
-  width: 97%;
 }
+
 
 .v-navlink {
   padding: 1rem 2rem;
   color: #000000;
   background: white;
-
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
@@ -63,41 +114,39 @@ hr {
 }
 
 @keyframes pulldown {
-  0% { border-top: 0px solid #ffffff; }
-  10% { border-top: 0.5px solid #f0f5f9; }
-  20% { border-top: 1px solid #d1e0ec; }
-  30% { border-top: 1.5px solid #b2cbe0; }
-  40% { border-top: 2px solid #a2c1da; }
-  50% { border-top: 2.5px solid #93b6d3; }
-  60% { border-top: 3px solid #84accd; }
-  70% { border-top: 3.5px solid #74a1c7; }
-  80% { border-top: 4px solid #6597c1; }
-  90% { border-top: 4.5px solid #558cba; }
-  100% { border-top: 5px solid #4682b4; }
-}
-
-h3 {
-  font-family: "Josefin Sans", sans-serif;
-  letter-spacing: 0px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-p {
-  font-family: "Lucida Console", Monaco, monospace;
-  font-size: 14px;
-}
-
-h5 {
-  font-family: "Josefin Sans", sans-serif;
-  letter-spacing: 0px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-h6 {
-  font-family: "Alegreya Sans SC", sans-serif;
-  text-align: center;
+  0% {
+    border-top: 0px solid #ffffff;
+  }
+  10% {
+    border-top: 0.5px solid #f0f5f9;
+  }
+  20% {
+    border-top: 1px solid #d1e0ec;
+  }
+  30% {
+    border-top: 1.5px solid #b2cbe0;
+  }
+  40% {
+    border-top: 2px solid #a2c1da;
+  }
+  50% {
+    border-top: 2.5px solid #93b6d3;
+  }
+  60% {
+    border-top: 3px solid #84accd;
+  }
+  70% {
+    border-top: 3.5px solid #74a1c7;
+  }
+  80% {
+    border-top: 4px solid #6597c1;
+  }
+  90% {
+    border-top: 4.5px solid #558cba;
+  }
+  100% {
+    border-top: 5px solid #4682b4;
+  }
 }
 
 #poweredby {
@@ -118,35 +167,24 @@ h6 {
   color: dodgerblue;
 }
 
-h4 {
-  text-align: center;
-  font-family: "Josefin Sans", sans-serif;
-  letter-spacing: 0px;
-  text-transform: uppercase;
-}
-
-h1 {
-  text-align: center;
-  font-family: "Caveat Brush", sans-serif;
-  padding-bottom: 15px;
-}
 
 .card-header {
   background-color: #ffffff;
 }
 
 .btn {
-  color: #000000;
-  background-color: steelblue;
+  color: steelblue;
+  background-color: white;
+  text-transform: lowercase;
 }
 
 .btn:hover {
-  text-decoration: none;
+  color: dodgerblue;
+  background-color: white;
 }
 
-a,
-a:hover {
-  text-decoration: none;
+i {
+  color: steelblue;
 }
 
 .proj {
@@ -180,7 +218,7 @@ a:hover {
   font-size: 120px;
   line-height: 0.75;
   margin: 10px 0;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 #logoImg {
@@ -189,6 +227,36 @@ a:hover {
 
 html.sr .load-hidden {
   visibility: hidden;
+}
+
+#allison {
+  border-radius: 100%;
+  box-shadow: 10px 10px 8px #888888;
+  width: 55%;
+  height: auto;
+}
+
+#imgcontainer {
+  text-align: center;
+}
+
+#txtcontainer {
+  text-align: left;
+}
+
+#home {
+  margin-top: 75px;
+  margin-bottom: 100px;
+}
+
+.aboutbtn {
+  background-color: white;
+  border: none;
+  color: #000000;
+  padding: 0rem 1rem;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 1rem;
+  text-align: left;
 }
 
 /*.rainbow:hover {
