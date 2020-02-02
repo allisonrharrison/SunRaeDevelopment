@@ -163,10 +163,6 @@ hr {
   font-weight: bold;
 }
 
-#react a {
-  color: dodgerblue;
-}
-
 
 .card-header {
   background-color: #ffffff;
@@ -232,7 +228,7 @@ html.sr .load-hidden {
 #allison {
   border-radius: 100%;
   box-shadow: 10px 10px 8px #888888;
-  width: 55%;
+  width: 65%;
   height: auto;
 }
 
