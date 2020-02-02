@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.7a173621.chunk.css",
-    "main.js": "/static/js/main.e5d1310b.chunk.js",
-    "main.js.map": "/static/js/main.e5d1310b.chunk.js.map",
+    "main.js": "/static/js/main.c8f57871.chunk.js",
+    "main.js.map": "/static/js/main.c8f57871.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.33a8e104.js",
     "runtime-main.js.map": "/static/js/runtime-main.33a8e104.js.map",
     "static/js/2.92dfb80c.chunk.js": "/static/js/2.92dfb80c.chunk.js",
     "static/js/2.92dfb80c.chunk.js.map": "/static/js/2.92dfb80c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e96652d4ddb3f7c86cab30bc776438ab.js": "/precache-manifest.e96652d4ddb3f7c86cab30bc776438ab.js",
+    "precache-manifest.f5960e57535baa9350bf59c9894c66a8.js": "/precache-manifest.f5960e57535baa9350bf59c9894c66a8.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.7a173621.chunk.css.map": "/static/css/main.7a173621.chunk.css.map",
     "static/js/2.92dfb80c.chunk.js.LICENSE": "/static/js/2.92dfb80c.chunk.js.LICENSE",
@@ -20,14 +20,14 @@
     "static/media/eightball_screenshot.png": "/static/media/eightball_screenshot.9a706fb0.png",
     "static/media/all.css": "/static/media/fa-solid-900.f6121be5.woff2",
     "static/media/leapyear_screenshot.png": "/static/media/leapyear_screenshot.63f03fb0.png",
-    "static/media/matchgame_screenshot.png": "/static/media/matchgame_screenshot.d56051c6.png",
     "static/media/reactcourse_screenshot.png": "/static/media/reactcourse_screenshot.fc1b04b0.png",
+    "static/media/rockpaperscissors-screenshot.png": "/static/media/rockpaperscissors-screenshot.6b598496.png",
     "static/media/sunrae_homepage_screenshot.png": "/static/media/sunrae_homepage_screenshot.a28968f2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.33a8e104.js",
     "static/js/2.92dfb80c.chunk.js",
     "static/css/main.7a173621.chunk.css",
-    "static/js/main.e5d1310b.chunk.js"
+    "static/js/main.c8f57871.chunk.js"
   ]
 }

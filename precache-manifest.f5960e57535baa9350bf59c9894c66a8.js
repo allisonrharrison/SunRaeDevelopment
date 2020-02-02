@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c5ac2afd1773fefa212534eba2755a68",
+    "revision": "99f1b7c03248b222ab85420384edef02",
     "url": "/index.html"
   },
   {
-    "revision": "ea9367cb69de852ae4ee",
+    "revision": "88bf5f5ef97a5d9921f8",
     "url": "/static/css/main.7a173621.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.92dfb80c.chunk.js.LICENSE"
   },
   {
-    "revision": "ea9367cb69de852ae4ee",
-    "url": "/static/js/main.e5d1310b.chunk.js"
+    "revision": "88bf5f5ef97a5d9921f8",
+    "url": "/static/js/main.c8f57871.chunk.js"
   },
   {
     "revision": "a0a65d26bd9ed1af549b",
@@ -116,12 +116,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo.8aa120ab.jpg"
   },
   {
-    "revision": "d56051c6426116751bea9346f4b13266",
-    "url": "/static/media/matchgame_screenshot.d56051c6.png"
-  },
-  {
     "revision": "fc1b04b01bec48b2b1f9d00742a4d232",
     "url": "/static/media/reactcourse_screenshot.fc1b04b0.png"
+  },
+  {
+    "revision": "6b5984961afb3bbca0688d0258e63e71",
+    "url": "/static/media/rockpaperscissors-screenshot.6b598496.png"
   },
   {
     "revision": "a28968f2891d1be683089090364b2b8b",
