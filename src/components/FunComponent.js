@@ -91,23 +91,23 @@ class Fun extends React.Component {
             </Card>
             <Card className="text-center proj col-sm-12">
               <a
-                href="https://codepen.io/allisonrharrison/pen/YzKxLoz"
+                href="https://codepen.io/allisonrharrison/pen/WNbVOYL"
                 target="_blank"
               >
                 <CardImg
                   top
-                  src={require("../img/matchgame_screenshot.png")}
+                  src={require("../img/rockpaperscissors-screenshot.png")}
                   alt="Card image cap"
                 />
               </a>
               <CardBody>
                 <CardTitle>
-                  <h5>smiley matching game</h5>
+                  <h5>rock paper scissors</h5>
                 </CardTitle>
                 <CardText className="mt-2">
                   <p>
-                    Click the extra smiley on the left to advance to the next
-                    level.
+                  Select Rock, Paper, or Scissors on the left-hand side
+and try to beat the Computer.
                   </p>
                 </CardText>
                 <p>
@@ -116,7 +116,7 @@ class Fun extends React.Component {
                 <hr />
                 <Button
                 className="aboutbtn"
-                  href="https://codepen.io/allisonrharrison/pen/YzKxLoz"
+                  href="https://codepen.io/allisonrharrison/pen/WNbVOYL"
                   target="_blank"
                   size="sm"
                 >
