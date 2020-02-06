@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "99f1b7c03248b222ab85420384edef02",
+    "revision": "0095fb8f6cc3abbcdbb54a5dced510c8",
     "url": "/index.html"
   },
   {
-    "revision": "88bf5f5ef97a5d9921f8",
+    "revision": "8d2210fecd74f7b8220a",
     "url": "/static/css/main.7a173621.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.92dfb80c.chunk.js.LICENSE"
   },
   {
-    "revision": "88bf5f5ef97a5d9921f8",
-    "url": "/static/js/main.c8f57871.chunk.js"
+    "revision": "8d2210fecd74f7b8220a",
+    "url": "/static/js/main.5fc9f77c.chunk.js"
   },
   {
     "revision": "a0a65d26bd9ed1af549b",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/allison2.1ceec221.jpg"
   },
   {
-    "revision": "0129f9aeab0a09d2439cd3a11adfbeaa",
-    "url": "/static/media/bootstrapcourse_screenshot.0129f9ae.png"
+    "revision": "059fa3057eb9599384121a1f560c4738",
+    "url": "/static/media/bootstrapconfusion-screenshot.059fa305.png"
   },
   {
     "revision": "fd30a7f801f1c665dbfcf50826621886",
