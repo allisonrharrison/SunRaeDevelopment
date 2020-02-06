@@ -1,4 +1,4 @@
-![Sun Rae Development Site Screenshot](https://i.imgur.com/2IoFiqU.png)
+![Sun Rae Development Site Screenshot](https://i.imgur.com/8t8BlBK.gif)
 
 # Sun Rae Development
 
