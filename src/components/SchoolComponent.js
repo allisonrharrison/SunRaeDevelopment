@@ -27,8 +27,9 @@ class School extends React.Component {
                   >
                     <CardImg
                       top
-                      src={require("../img/bootstrapconfusion-screenshot.png")}
+                      src={require("../img/bootstrap_cardsize.png")}
                       alt="Card image cap"
+                      height="180px" width="318px"
                     />
                   </a>
                   <CardBody>
@@ -69,13 +70,14 @@ class School extends React.Component {
                 {/* REACT */}
                 <Card className="text-center proj col-sm-12">
                   <a
-                    href="https://github.com/allisonrharrison/React"
+                    href="https://allisonrharrison.github.io/React/"
                     target="_blank"
                   >
                     <CardImg
                       top
                       src={require("../img/reactcourse_screenshot.png")}
                       alt="Card image cap"
+                      height="180px" width="318px"
                     />
                   </a>
                   <CardBody>
@@ -94,7 +96,7 @@ class School extends React.Component {
                     <hr />
                     <Button
                       className="aboutbtn"
-                      href="/"
+                      href="https://allisonrharrison.github.io/React/"
                       target="_blank"
                       size="sm"
                     >
@@ -103,7 +105,7 @@ class School extends React.Component {
                     </Button>
                     <Button
                       className="aboutbtn"
-                      href="https://github.com/allisonrharrison/MindsEyeTattooStudio"
+                      href="https://github.com/allisonrharrison/React"
                       target="_blank"
                       size="sm"
                     >
@@ -115,10 +117,10 @@ class School extends React.Component {
                 {/* REACT NATIVE */}
                 <Card className="text-center proj col-sm-12">
                   <a
-                    href="https://github.com/allisonrharrison/NativeConfusion"
+                    href="https://snack.expo.io/@allisonrharrison/1e6972"
                     target="_blank"
                   >
-                    <CardImg top src="" alt="Card image cap" />
+                    <CardImg top src={require("../img/nativeapp_cardsize.png")} alt="Card image cap" height="180px" width="318px"/>
                   </a>
                   <CardBody>
                     <CardTitle>
@@ -131,27 +133,26 @@ class School extends React.Component {
                         camera, and calendar functionality.
                       </p>
                       <p>
-                        <strong>Features:</strong> React Native
+                        <strong>Features:</strong> React Native, Redux
                       </p>
                     </CardText>
                     <hr />
                     <Button
                       className="aboutbtn"
-                      href="/"
+                      href="https://snack.expo.io/@allisonrharrison/1e6972"
                       target="_blank"
                       size="sm"
                     >
-                      <i className="fas fa-external-link-alt fa-sm"></i> Visit
-                      Site
+                      <i className="fas fa-cubes fa-sm"></i> Demo on Snack
                     </Button>
 
                     <Button
                       className="aboutbtn"
-                      href="https://github.com/allisonrharrison/MindsEyeTattooStudio"
+                      href="https://github.com/allisonrharrison/NativeConfusion"
                       target="_blank"
                       size="sm"
                     >
-                      <i className="fab fa-github"></i> View on GitHub
+                      <i className="fab fa-github fa-sm"></i> View on GitHub
                     </Button>
                   </CardBody>
                 </Card>
