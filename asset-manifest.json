@@ -1,33 +1,34 @@
 {
   "files": {
     "main.css": "/static/css/main.7a173621.chunk.css",
-    "main.js": "/static/js/main.5fc9f77c.chunk.js",
-    "main.js.map": "/static/js/main.5fc9f77c.chunk.js.map",
+    "main.js": "/static/js/main.f73cdbb9.chunk.js",
+    "main.js.map": "/static/js/main.f73cdbb9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.33a8e104.js",
     "runtime-main.js.map": "/static/js/runtime-main.33a8e104.js.map",
-    "static/js/2.92dfb80c.chunk.js": "/static/js/2.92dfb80c.chunk.js",
-    "static/js/2.92dfb80c.chunk.js.map": "/static/js/2.92dfb80c.chunk.js.map",
+    "static/js/2.ccbf9c83.chunk.js": "/static/js/2.ccbf9c83.chunk.js",
+    "static/js/2.ccbf9c83.chunk.js.map": "/static/js/2.ccbf9c83.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.855c9678879cd4d3bbb2b61bec2ea91f.js": "/precache-manifest.855c9678879cd4d3bbb2b61bec2ea91f.js",
+    "precache-manifest.df1827dc7d5aae24767d64dc44f3e5f6.js": "/precache-manifest.df1827dc7d5aae24767d64dc44f3e5f6.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.7a173621.chunk.css.map": "/static/css/main.7a173621.chunk.css.map",
-    "static/js/2.92dfb80c.chunk.js.LICENSE": "/static/js/2.92dfb80c.chunk.js.LICENSE",
+    "static/js/2.ccbf9c83.chunk.js.LICENSE": "/static/js/2.ccbf9c83.chunk.js.LICENSE",
     "static/media/ILNP_screenshot.png": "/static/media/ILNP_screenshot.80200514.png",
     "static/media/METS_screenshot.png": "/static/media/METS_screenshot.c33b1568.png",
     "static/media/allison2.jpg": "/static/media/allison2.1ceec221.jpg",
-    "static/media/bootstrapconfusion-screenshot.png": "/static/media/bootstrapconfusion-screenshot.059fa305.png",
+    "static/media/bootstrap_cardsize.png": "/static/media/bootstrap_cardsize.48c51c52.png",
     "static/media/App.css": "/static/media/logo.8aa120ab.jpg",
     "static/media/eightball_screenshot.png": "/static/media/eightball_screenshot.9a706fb0.png",
     "static/media/all.css": "/static/media/fa-solid-900.f6121be5.woff2",
     "static/media/leapyear_screenshot.png": "/static/media/leapyear_screenshot.63f03fb0.png",
-    "static/media/reactcourse_screenshot.png": "/static/media/reactcourse_screenshot.fc1b04b0.png",
+    "static/media/nativeapp_cardsize.png": "/static/media/nativeapp_cardsize.752e1d30.png",
+    "static/media/reactcourse_screenshot.png": "/static/media/reactcourse_screenshot.e58706cf.png",
     "static/media/rockpaperscissors-screenshot.png": "/static/media/rockpaperscissors-screenshot.6b598496.png",
     "static/media/sunrae_homepage_screenshot.png": "/static/media/sunrae_homepage_screenshot.a28968f2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.33a8e104.js",
-    "static/js/2.92dfb80c.chunk.js",
+    "static/js/2.ccbf9c83.chunk.js",
     "static/css/main.7a173621.chunk.css",
-    "static/js/main.5fc9f77c.chunk.js"
+    "static/js/main.f73cdbb9.chunk.js"
   ]
 }
