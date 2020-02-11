@@ -15,12 +15,14 @@ class School extends React.Component {
     return (
       <div className="panel">
         <Fade>
-          <h3 className="mb-5">SCHOOL PROJECTS</h3>
           <Card style={{ border: "none" }}>
+            <CardTitle>
+            <h3 className="mb-5">SCHOOL PROJECTS</h3>
+            </CardTitle>
             <CardBody>
               <CardDeck>
                 {/* BOOTSTRAP */}
-                <Card className="text-center proj col-sm-12">
+                <Card className="text-center proj col-sm-12 p-0">
                   <a
                     href="https://allisonrharrison.github.io/conFusion/"
                     target="_blank"
@@ -68,7 +70,7 @@ class School extends React.Component {
                 </Card>
 
                 {/* REACT */}
-                <Card className="text-center proj col-sm-12">
+                <Card className="text-center proj col-sm-12 p-0">
                   <a
                     href="https://allisonrharrison.github.io/React/"
                     target="_blank"
@@ -115,7 +117,7 @@ class School extends React.Component {
                 </Card>
 
                 {/* REACT NATIVE */}
-                <Card className="text-center proj col-sm-12">
+                <Card className="text-center proj col-sm-12 p-0">
                   <a
                     href="https://snack.expo.io/@allisonrharrison/1e6972"
                     target="_blank"

@@ -15,11 +15,13 @@ class Fun extends React.Component {
     return(
         <div className="panel">
           <Fade>
-        <h3 className="mb-5">FUN PROJECTS</h3>
       <Card style={{ border: "none" }}>
+        <CardTitle>
+        <h3 className="mb-5">FUN PROJECTS</h3>
+        </CardTitle>
         <CardBody>
           <CardDeck>
-            <Card className="card text-center proj col-sm-12">
+            <Card className="card text-center proj col-sm-12 p-0">
               <a
                 href="https://codepen.io/allisonrharrison/pen/ExYXJoe"
                 target="_blank"
@@ -28,6 +30,7 @@ class Fun extends React.Component {
                   top
                   src={require("../img/leapyear_screenshot.png")}
                   alt="Card image cap"
+                  height="180px" width="318px"
                 />
               </a>
               <CardBody>
@@ -54,15 +57,16 @@ class Fun extends React.Component {
                 </Button>
               </CardBody>
             </Card>
-            <Card className="text-center proj col-sm-12">
+            <Card className="text-center proj col-sm-12 p-0">
               <a
                 href="https://codepen.io/allisonrharrison/pen/PoYjgRZ"
                 target="_blank"
               >
                 <CardImg
                   top
-                  src={require("../img/eightball_screenshot.png")}
+                  src={require("../img/eightball_cardsize.png")}
                   alt="Card image cap"
+                  height="180px" width="318px"
                 />
               </a>
               <CardBody>
@@ -89,15 +93,16 @@ class Fun extends React.Component {
                 </Button>
               </CardBody>
             </Card>
-            <Card className="text-center proj col-sm-12">
+            <Card className="text-center proj col-sm-12 p-0">
               <a
                 href="https://codepen.io/allisonrharrison/pen/WNbVOYL"
                 target="_blank"
               >
                 <CardImg
                   top
-                  src={require("../img/rockpaperscissors-screenshot.png")}
+                  src={require("../img/rockpaperscissors_cardsize.png")}
                   alt="Card image cap"
+                  height="180px" width="318px"
                 />
               </a>
               <CardBody>

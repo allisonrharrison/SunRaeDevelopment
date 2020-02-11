@@ -16,19 +16,24 @@ class Personal extends React.Component {
     return (
       <div className="panel">
         <Fade>
-          <h3 className="mb-5">PERSONAL PROJECTS</h3>
           <Card style={{ border: "none" }}>
+            <CardTitle>
+            <h3 className="mb-5">PERSONAL PROJECTS</h3>
+            </CardTitle>
             <CardBody>
               <CardDeck>
                 {/* MIND'S EYE TATTOO STUDIO */}
-                <Card className="text-center col-sm-12 proj">
+                <Card className="text-center col-sm-12 proj p-0">
                   <a
                     href="https://allisonrharrison.github.io/MindsEyeTattooStudio/index.html"
                     target="_blank"
                   >
-                    <CardImg top
-                      src={require("../img/METS_screenshot.png")}
+                    <CardImg
+                      top
+                      src={require("../img/mindseye_cardsize.png")}
                       alt="Card image cap"
+                      height="180px"
+                      width="318px"
                     />
                   </a>
                   <CardBody>
@@ -36,16 +41,14 @@ class Personal extends React.Component {
                       <h5>mind's eye tattoo</h5>
                     </CardTitle>
                     <CardText className="mt-3">
-                      <p>
-                        A website for a local tattoo business.
-                      </p>
+                      <p>A website for a local tattoo business.</p>
                       <p>
                         <strong>Features:</strong> Bootstrap 4
                       </p>
                     </CardText>
                     <hr />
                     <Button
-                    className="aboutbtn"
+                      className="aboutbtn"
                       href="https://allisonrharrison.github.io/MindsEyeTattooStudio/index.html"
                       target="_blank"
                       size="sm"
@@ -54,7 +57,7 @@ class Personal extends React.Component {
                       Site
                     </Button>
                     <Button
-                    className="aboutbtn"
+                      className="aboutbtn"
                       href="https://github.com/allisonrharrison/MindsEyeTattooStudio"
                       target="_blank"
                       size="sm"
@@ -64,17 +67,19 @@ class Personal extends React.Component {
                   </CardBody>
                 </Card>
                 {/* ILNP */}
-                <Card className="text-center proj col-sm-12">
+                <Card className="text-center proj col-sm-12 p-0">
                   <Button
-                  className="aboutbtn"
+                    className="aboutbtn"
                     href="https://allisonrharrison.github.io/ILNP"
                     target="_blank"
                     size="sm"
                   >
                     <CardImg
                       top
-                      src={require("../img/ILNP_screenshot.png")}
+                      src={require("../img/ilnp_cardsize.png")}
                       alt="Card image cap"
+                      height="180px"
+                      width="318px"
                     />
                   </Button>
                   <CardBody>
@@ -92,7 +97,7 @@ class Personal extends React.Component {
                     </CardText>
                     <hr />
                     <Button
-                    className="aboutbtn"
+                      className="aboutbtn"
                       href="https://allisonrharrison.github.io/ILNP"
                       target="_blank"
                       size="sm"
@@ -101,7 +106,7 @@ class Personal extends React.Component {
                       Site
                     </Button>
                     <Button
-                    className="aboutbtn"
+                      className="aboutbtn"
                       href="https://github.com/allisonrharrison/ILNP"
                       target="_blank"
                       size="sm"
@@ -111,12 +116,14 @@ class Personal extends React.Component {
                   </CardBody>
                 </Card>
                 {/* SUN RAE DEVELOPMENT */}
-                <Card className="text-center proj col-sm-12">
+                <Card className="text-center proj col-sm-12 p-0">
                   <a href="https://sunrae.dev">
                     <CardImg
                       top
-                      src={require("../img/sunrae_homepage_screenshot.png")}
+                      src={require("../img/sunraedev_cardsize.png")}
                       alt="Card image cap"
+                      height="180px"
+                      width="318px"
                     />
                   </a>
                   <CardBody>
@@ -132,15 +139,12 @@ class Personal extends React.Component {
                       </p>
                     </CardText>
                     <hr />
-                    <Button
-                    className="aboutbtn"
-                      size="sm"
-                    >
+                    <Button className="aboutbtn" size="sm">
                       <i className="fas fa-external-link-alt fa-sm"></i> Visit
                       Site
                     </Button>
                     <Button
-                    className="aboutbtn"
+                      className="aboutbtn"
                       href="https://github.com/allisonrharrison/sunraedevelopment"
                       target="_blank"
                       size="sm"
