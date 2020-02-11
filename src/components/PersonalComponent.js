@@ -18,7 +18,7 @@ class Personal extends React.Component {
         <Fade>
           <Card style={{ border: "none" }}>
             <CardTitle>
-            <h3 className="mb-5">PERSONAL PROJECTS</h3>
+              <h3 className="mb-5">PERSONAL PROJECTS</h3>
             </CardTitle>
             <CardBody>
               <CardDeck>
@@ -68,11 +68,9 @@ class Personal extends React.Component {
                 </Card>
                 {/* ILNP */}
                 <Card className="text-center proj col-sm-12 p-0">
-                  <Button
-                    className="aboutbtn"
+                  <a
                     href="https://allisonrharrison.github.io/ILNP"
                     target="_blank"
-                    size="sm"
                   >
                     <CardImg
                       top
@@ -81,15 +79,15 @@ class Personal extends React.Component {
                       height="180px"
                       width="318px"
                     />
-                  </Button>
+                  </a>
                   <CardBody>
                     <CardTitle>
                       <h5>ilnp</h5>
                     </CardTitle>
                     <CardText className="mt-3">
                       <p>
-                        Rebuilding a web store in React for increased
-                        efficiency.
+                        Rebuilding a pre-existing web store in React for
+                        increased efficiency.
                       </p>
                       <p>
                         <strong>Features:</strong> React, Redux
