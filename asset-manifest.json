@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f87f57c.chunk.css",
+    "main.css": "/static/css/main.fa6f779a.chunk.css",
     "main.js": "/static/js/main.b82ecdef.chunk.js",
     "main.js.map": "/static/js/main.b82ecdef.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.33a8e104.js",
@@ -8,9 +8,9 @@
     "static/js/2.fa9049d4.chunk.js": "/static/js/2.fa9049d4.chunk.js",
     "static/js/2.fa9049d4.chunk.js.map": "/static/js/2.fa9049d4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.92f73e9f6d3ceb425131f5da56ed8a20.js": "/precache-manifest.92f73e9f6d3ceb425131f5da56ed8a20.js",
+    "precache-manifest.333d31bc0295d00a92d0203b7d87b65f.js": "/precache-manifest.333d31bc0295d00a92d0203b7d87b65f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.6f87f57c.chunk.css.map": "/static/css/main.6f87f57c.chunk.css.map",
+    "static/css/main.fa6f779a.chunk.css.map": "/static/css/main.fa6f779a.chunk.css.map",
     "static/js/2.fa9049d4.chunk.js.LICENSE": "/static/js/2.fa9049d4.chunk.js.LICENSE",
     "static/media/allison2.jpg": "/static/media/allison2.1ceec221.jpg",
     "static/media/bootstrap_cardsize.png": "/static/media/bootstrap_cardsize.48c51c52.png",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.33a8e104.js",
     "static/js/2.fa9049d4.chunk.js",
-    "static/css/main.6f87f57c.chunk.css",
+    "static/css/main.fa6f779a.chunk.css",
     "static/js/main.b82ecdef.chunk.js"
   ]
 }
