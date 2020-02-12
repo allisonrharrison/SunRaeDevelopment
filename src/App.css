@@ -39,7 +39,7 @@ h1 {
   font-family: "Caveat Brush";
   text-align: center;
   padding-bottom: 15px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 h3 {
@@ -256,16 +256,16 @@ html.sr .load-hidden {
 }
 
 #navbarbrand {
-  padding: 0.3rem 1rem;
+  padding: 0.5rem 1rem;
   color: #000000;
   background: white;
 }
 
 #navbarlogo {
   font-family: "Caveat Brush";
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   color: steelblue;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 /*.rainbow:hover {
