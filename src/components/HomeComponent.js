@@ -26,11 +26,11 @@ class Home extends Component {
       <div className="panel" id="home">
           <Fade>
           <h1 id="logo">
-            SUN
+            &nbsp;SUN
             <br />
-            RAE
+             &nbsp;RAE
             <br />
-            DEV
+            .DEV
           </h1>
           <h4>FULL STACK WEB DEVELOPMENT</h4>
           <p id="poweredby">
