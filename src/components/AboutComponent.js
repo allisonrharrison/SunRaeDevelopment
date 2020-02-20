@@ -38,7 +38,10 @@ function About() {
                 ></i>
                 view my github
               </Button>
-              <Button className="aboutbtn">
+              <Button
+                className="aboutbtn"
+                href="http://s000.tinyupload.com/download.php?file_id=00623527908424394622&t=0062352790842439462287656"
+              >
                 <i
                   style={{ color: "steelblue" }}
                   className="fas fa-download mr-2"
