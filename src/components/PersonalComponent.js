@@ -133,7 +133,7 @@ class Personal extends React.Component {
                         This website! My personal web development portfolio.
                       </p>
                       <p>
-                        <strong>Features:</strong> Bootstrap 4
+                        <strong>Features:</strong> Bootstrap 4, React
                       </p>
                     </CardText>
                     <hr />
