@@ -44,7 +44,7 @@ class School extends React.Component {
                         layout for all screen sizes.
                       </p>
                       <p>
-                        <strong>Features:</strong> Bootstrap 4, Grunt
+                        <strong>Features:</strong> Bootstrap 4, jQuery
                       </p>
                     </CardText>
                     <hr />
@@ -92,7 +92,7 @@ class School extends React.Component {
                         with rating, comment, and favorite functionality.
                       </p>
                       <p>
-                        <strong>Features:</strong> React, Redux
+                        <strong>Features:</strong> React, Redux, Firebase
                       </p>
                     </CardText>
                     <hr />
@@ -135,7 +135,7 @@ class School extends React.Component {
                         camera, and calendar functionality.
                       </p>
                       <p>
-                        <strong>Features:</strong> React Native, Redux
+                        <strong>Features:</strong> React Native, Redux, NodeJS, Express, MongoDB
                       </p>
                     </CardText>
                     <hr />
