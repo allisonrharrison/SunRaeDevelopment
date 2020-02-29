@@ -46,32 +46,39 @@ function About() {
                   style={{ color: "steelblue" }}
                   className="fas fa-download mr-2"
                 ></i>
-                download my resume
+                download my resume (.pdf)
               </Button>
             </ButtonGroup>
           </div>
-          <div id="txtcontainer" className="col-7">
+          <div id="txtcontainer" className="col-6">
             <p>
               <strong>Hi! I'm Allison.</strong>
             </p>
-            <p>I'm a junior Web Developer in Tacoma, WA.</p>
-            <p>Education:</p>
+            <p>I'm a junior Web Developer in Tacoma, WA. I'm looking forward to joining my very first development team and building some really cool stuff on the Web.</p>
+            <p><strong>Certification:</strong></p>
             <ul>
               <li>
                 Full-Stack Web Development (
                 <a href="https://www.nucamp.co/">NuCamp</a>, Jan '20)
               </li>
             </ul>
-            <p>Current Skills:</p>
+            <p><strong>Volunteer:</strong></p>
             <ul>
-              <li>React | React Native | Redux</li>
-              <li>HTML5</li>
-              <li>CSS3 | SCSS</li>
-              <li>JavaScript ES6 | JSX</li>
-              <li>Git | GitHub</li>
+              <li>Tacoma JavaScript Club (CoFounder, 2020-)</li>
+            </ul>
+            <p><strong>Current Skills:</strong></p>
+            <ul>
+              <li>HTML 5</li>
               <li>Bootstrap 4</li>
-              <li>NPM | Yarn</li>
-              <li>Visual Studio Code</li>
+              <li>JavaScript ES6</li>
+              <li>CSS 3, Less, Sass</li>
+              <li>React, React Native, Redux</li>
+              <li>NodeJS, Express, MongoDB</li>
+              <li>Google Firebase</li>
+              <li>Git, GitHub</li>
+              <li>NPM, Yarn</li>
+              <li>VS Code</li>
+              <li>Bash</li>
             </ul>
             <p>
               Want to add me to your team? <a href="#contact">Contact me</a>.
