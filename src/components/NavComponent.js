@@ -16,6 +16,7 @@ const Navigation = props => {
   const toggleNavbar = () => setCollapsed(!collapsed);
 
   return (
+    <div className="container">
     <Navbar light expand="sm" className="v-nav">
       <NavbarToggler onClick={toggleNavbar} className="" />
       <Collapse isOpen={!collapsed} navbar>
@@ -102,6 +103,7 @@ const Navigation = props => {
         </Nav>
       </Collapse>
     </Navbar>
+    </div>
   );
 };
 
