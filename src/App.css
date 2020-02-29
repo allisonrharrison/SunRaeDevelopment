@@ -28,11 +28,13 @@ body {
 
 .container {
   background-color: white;
+  width: 100%;
 }
 
 .panel {
   background-color: white;
   padding-bottom: 120px;
+  margin-top: 0;
 }
 
 h1 {
@@ -94,14 +96,14 @@ hr {
 .v-nav {
   position: fixed;
   top: 0;
-  left: 5.5%;
-  width: 89%;
-  z-index: 20;
+  left: 0;
+  margin-bottom: 0;
   background-color: white;
+  z-index: 2;
+  width: 100%;
 }
 
 .v-navlink {
-  padding: 1rem 1.5rem;
   color: #000000;
   background: white;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -213,8 +215,8 @@ i {
   text-transform: uppercase;
   font-size: 120px;
   line-height: 0.75;
-  margin: 10px 0;
-  padding-top: 100px;
+  margin: 10px 0px;
+  padding-top: 175px;
 }
 
 #logoImg {
@@ -241,7 +243,6 @@ html.sr .load-hidden {
 }
 
 #home {
-  margin-top: 75px;
   margin-bottom: 100px;
 }
 
@@ -256,7 +257,6 @@ html.sr .load-hidden {
 }
 
 #navbarbrand {
-  padding: 0.5rem 1rem;
   color: #000000;
   background: white;
 }

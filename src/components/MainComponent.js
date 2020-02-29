@@ -5,7 +5,7 @@ import About from "./AboutComponent";
 import Contact from "./ContactComponent";
 import Navigation from "./NavComponent";
 
-class Main extends React.Component {
+class Main extends Component {
 
   render() {
     return(
