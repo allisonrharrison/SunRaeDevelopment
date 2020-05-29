@@ -1,10 +1,40 @@
 body {
-  background-color: #000000;
+  background-size: cover;
+  background-position: center;
+  background: rgb(103, 142, 173);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(103, 142, 173, 1) 0%,
+    rgba(255, 255, 255, 1) 10%,
+    rgba(255, 255, 255, 1) 90%,
+    rgba(103, 142, 173, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(103, 142, 173, 1) 0%,
+    rgba(255, 255, 255, 1) 10%,
+    rgba(255, 255, 255, 1) 90%,
+    rgba(103, 142, 173, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(103, 142, 173, 1) 0%,
+    rgba(255, 255, 255, 1) 10%,
+    rgba(255, 255, 255, 1) 90%,
+    rgba(103, 142, 173, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#678ead",endColorstr="#678ead",GradientType=1);
 }
 
 .container {
-  background-color: #000000;
+  background-color: white;
   width: 100%;
+}
+
+.panel {
+  background-color: white;
+  padding-bottom: 120px;
+  margin-top: 0;
 }
 
 h1 {
@@ -12,25 +42,23 @@ h1 {
   text-align: center;
   padding-bottom: 15px;
   font-weight: 800;
-  font-size: 45px;
 }
 
 h3 {
-  font-family: 'Pacifico', cursive;
+  font-family: "Josefin Sans", sans-serif;
   letter-spacing: 0px;
   text-align: center;
-  color: #000000;
-  margin-top: 3.5rem;
-  font-size: 18px;
-  text-shadow: 0px 0px 3px white;
+  text-transform: uppercase;
+  background-color: steelblue;
+  color: white;
+  padding-top: 5px;
+  margin: 100px 0px;
 }
 
 h4 {
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
-  color: white;
-  font-size: 18px;
 }
 
 h5 {
@@ -65,49 +93,92 @@ hr {
   background-color: white;
 }
 
+.v-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-bottom: 0;
+  background-color: white;
+  z-index: 2;
+  width: 100%;
+}
+
+.v-navlink {
+  color: #000000;
+  background: white;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.v-navlink:hover {
+  text-decoration: none;
+  animation-name: pulldown;
+  animation-duration: 0.25s;
+  border-top: 6px solid #4682b4;
+}
+
+@keyframes pulldown {
+  0% {
+    border-top: 0px solid #ffffff;
+  }
+  10% {
+    border-top: 0.5px solid #f0f5f9;
+  }
+  20% {
+    border-top: 1px solid #d1e0ec;
+  }
+  30% {
+    border-top: 1.5px solid #b2cbe0;
+  }
+  40% {
+    border-top: 2px solid #a2c1da;
+  }
+  50% {
+    border-top: 2.5px solid #93b6d3;
+  }
+  60% {
+    border-top: 3px solid #84accd;
+  }
+  70% {
+    border-top: 3.5px solid #74a1c7;
+  }
+  80% {
+    border-top: 4px solid #6597c1;
+  }
+  90% {
+    border-top: 4.5px solid #558cba;
+  }
+  100% {
+    border-top: 5px solid #4682b4;
+  }
+}
+
 #poweredby {
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
   font-size: 14px;
-  color: #ffee00;
+  color: steelblue;
 }
 
-#atom {
-  color: #d800ff;
-}
-
-#center {
-  margin: 1rem;
-}
-
-.react {
+#react {
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
   font-size: 14px;
   font-weight: bold;
-  color: #8600b3;
-}
-
-.react:hover {
-  color: #d800ff;
 }
 
 .card-header {
   background-color: #ffffff;
 }
 
-.accordion {
-  border: none;
-  margin-bottom: 10px;
-  border-radius: 100%;
-  height: 10rem;
-  width: 10rem;
-  transition: all 0.2s ease-in-out;
+.btn {
+  color: steelblue;
+  background-color: white;
+  text-transform: lowercase;
 }
 
-.accordion:hover {
-  cursor: pointer;
-  transform: scale(1.12);
+.btn:hover {
+  color: dodgerblue;
+  background-color: white;
 }
 
 i {
@@ -115,12 +186,12 @@ i {
 }
 
 .proj {
-  box-shadow: 2px 2px 7px goldenrod;
+  box-shadow: 5px 5px 7px gray;
   transition: all 0.2s ease-in-out;
 }
 
 .proj:hover {
-  box-shadow: 5px 5px 12px darkgoldenrod;
+  box-shadow: 5px 5px 12px darkgray;
   transform: scale(1.05);
 }
 
@@ -135,97 +206,21 @@ i {
 }
 
 #logo {
-  color: white;
+  background-image: url("./img/clouds.gif");
+  background-size: cover;
+  background-position: center center;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
   text-transform: uppercase;
+  font-size: 120px;
   line-height: 0.75;
+  margin: 10px 0px;
+  padding-top: 175px;
 }
 
-#sun {
-  border-top-left-radius: 100%;
-  border-top-right-radius: 100%;
-}
-
-#abouttoggler {
-  background: rgb(235, 117, 130);
-  background: -moz-linear-gradient(
-    0deg,
-    rgba(235, 117, 130, 1) 0%,
-    rgba(255, 160, 0, 1) 25%,
-    rgba(255, 238, 0, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    0deg,
-    rgba(235, 117, 130, 1) 0%,
-    rgba(255, 160, 0, 1) 25%,
-    rgba(255, 238, 0, 1) 100%
-  );
-  background: linear-gradient(
-    0deg,
-    rgba(235, 117, 130, 1) 0%,
-    rgba(255, 160, 0, 1) 25%,
-    rgba(255, 238, 0, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eb7582",endColorstr="#ffee00",GradientType=1);
-}
-
-#projecttoggler {
-  background: rgb(134, 0, 179);
-  background: -moz-linear-gradient(
-    0deg,
-    rgba(134, 0, 179, 1) 0%,
-    rgba(255, 120, 0, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    0deg,
-    rgba(134, 0, 179, 1) 0%,
-    rgba(255, 120, 0, 1) 100%
-  );
-  background: linear-gradient(
-    0deg,
-    rgba(134, 0, 179, 1) 0%,
-    rgba(255, 120, 0, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8600b3",endColorstr="#ff7800",GradientType=1);
-}
-
-#schooltoggler {
-  background: rgb(134, 0, 179);
-  background: -moz-linear-gradient(
-    0deg,
-    rgba(134, 0, 179, 1) 0%,
-    rgba(255, 120, 0, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    0deg,
-    rgba(134, 0, 179, 1) 0%,
-    rgba(255, 120, 0, 1) 100%
-  );
-  background: linear-gradient(
-    0deg,
-    rgba(134, 0, 179, 1) 0%,
-    rgba(255, 120, 0, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8600b3",endColorstr="#ff7800",GradientType=1);
-}
-
-#contacttoggler {
-  background: rgb(49, 0, 73);
-  background: -moz-linear-gradient(
-    0deg,
-    rgba(49, 0, 73, 1) 0%,
-    rgba(134, 0, 179, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    0deg,
-    rgba(49, 0, 73, 1) 0%,
-    rgba(134, 0, 179, 1) 100%
-  );
-  background: linear-gradient(
-    0deg,
-    rgba(49, 0, 73, 1) 0%,
-    rgba(134, 0, 179, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#310049",endColorstr="#8600b3",GradientType=1);
+#logoImg {
+  background-image: url("./img/logo.jpg");
 }
 
 html.sr .load-hidden {
@@ -247,6 +242,10 @@ html.sr .load-hidden {
   text-align: left;
 }
 
+#home {
+  margin-bottom: 100px;
+}
+
 .aboutbtn {
   background-color: white;
   border: none;
@@ -256,3 +255,162 @@ html.sr .load-hidden {
   font-size: 1rem;
   text-align: left;
 }
+
+#navbarbrand {
+  color: #000000;
+  background: white;
+}
+
+#navbarlogo {
+  font-family: "Caveat Brush";
+  letter-spacing: 0.5px;
+  color: steelblue;
+  font-size: 25px;
+}
+
+/*.rainbow:hover {
+  -webkit-animation: rainbow 2s infinite;
+  -ms-animation: rainbow 2s infinite;
+  -o-animation: rainbow 2s infinite;
+  animation: rainbow 2s infinite;
+}
+@-webkit-keyframes rainbow {
+  0% {
+    color: #ff0000;
+  }
+  10% {
+    color: #ff8000;
+  }
+  20% {
+    color: #ffff00;
+  }
+  30% {
+    color: #80ff00;
+  }
+  40% {
+    color: #00ff00;
+  }
+  50% {
+    color: #00ff80;
+  }
+  60% {
+    color: #00ffff;
+  }
+  70% {
+    color: #0080ff;
+  }
+  80% {
+    color: #0000ff;
+  }
+  90% {
+    color: #8000ff;
+  }
+  100% {
+    color: #ff0080;
+  }
+}
+@-ms-keyframes rainbow {
+  0% {
+    color: #ff0000;
+  }
+  10% {
+    color: #ff8000;
+  }
+  20% {
+    color: #ffff00;
+  }
+  30% {
+    color: #80ff00;
+  }
+  40% {
+    color: #00ff00;
+  }
+  50% {
+    color: #00ff80;
+  }
+  60% {
+    color: #00ffff;
+  }
+  70% {
+    color: #0080ff;
+  }
+  80% {
+    color: #0000ff;
+  }
+  90% {
+    color: #8000ff;
+  }
+  100% {
+    color: #ff0080;
+  }
+}
+@-o-keyframes rainbow {
+  0% {
+    color: #ff0000;
+  }
+  10% {
+    color: #ff8000;
+  }
+  20% {
+    color: #ffff00;
+  }
+  30% {
+    color: #80ff00;
+  }
+  40% {
+    color: #00ff00;
+  }
+  50% {
+    color: #00ff80;
+  }
+  60% {
+    color: #00ffff;
+  }
+  70% {
+    color: #0080ff;
+  }
+  80% {
+    color: #0000ff;
+  }
+  90% {
+    color: #8000ff;
+  }
+  100% {
+    color: #ff0080;
+  }
+}
+@keyframes rainbow {
+  0% {
+    color: #ff0000;
+  }
+  10% {
+    color: #ff8000;
+  }
+  20% {
+    color: #ffff00;
+  }
+  30% {
+    color: #80ff00;
+  }
+  40% {
+    color: #00ff00;
+  }
+  50% {
+    color: #00ff80;
+  }
+  60% {
+    color: #00ffff;
+  }
+  70% {
+    color: #0080ff;
+  }
+  80% {
+    color: #0000ff;
+  }
+  90% {
+    color: #8000ff;
+  }
+  100% {
+    color: #ff0080;
+  }
+}*/
