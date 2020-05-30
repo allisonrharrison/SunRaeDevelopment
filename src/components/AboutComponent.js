@@ -66,38 +66,66 @@ function About() {
             </p>
 
             <h6>Current Skills:</h6>
+            <div className="row justify-content-center">
+            <div className="col-3">
+              <div className="row">
+                <i className="fab fa-html5 fa-5x"></i>
+                </div>
+                <div className="row"><p>HTML 5</p>
+                </div>
+                </div>
+                <div className="col-3">
+              <div className="row">
+              <i className="fab fa-css3-alt fa-5x"></i>
+                </div>
+                <div className="row"><p>CSS 3</p>
+                </div>
+                </div>
+                <div className="col-3">
+              <div className="row">
+              <i className="fab fa-js-square fa-5x"></i>
+                </div>
+                <div className="row"><p>JavaScript</p>
+                </div>
+                </div>
+                <div className="col-3">
+              <div className="row">
+              <i className="fab fa-react fa-5x"></i>
+                </div>
+                <div className="row"><p>React/Redux</p>
+                </div>
+                </div>
+            </div>
             <div className="row">
               <div className="col-6">
-                <p>
-                  HTML 5
-                  <br />
+                <p className="text-right">
                   Bootstrap 4
                   <br />
-                  JavaScript ES6
+                  Less | Sass
                   <br />
-                  CSS 3, Less, Sass
+                  React Native
                   <br />
-                  React, React Native, Redux
+                  NodeJS | Express
                   <br />
-                  NodeJS, Express, MongoDB
+                  MongoDB
                   <br />
                 </p>
               </div>
               <div className="col-6">
-                <p className="text-right">
+                <p className="text-left">
                   Google Firebase
                   <br />
-                  Git, GitHub
+                  Git | GitHub
                   <br />
-                  NPM, Yarn
+                  NPM | Yarn
                   <br />
-                  VS Code
+                  Visual Studio Code
                   <br />
                   Bash
                 </p>
               </div>
             </div>
-            <p className="text-center">
+            <p className="text-center mt-3">
               Want to add me to your team? <a href="#contact">Contact me</a>.
             </p>
           </div>
