@@ -23,8 +23,9 @@ class Home extends Component {
 
   render() {
     return (
-      <div className="panel" id="home">
+      <div className="mb-5" id="home">
           <Fade>
+            <div id="sun">
           <h1 id="logo">
             &nbsp;SUN
             <br />
@@ -32,7 +33,8 @@ class Home extends Component {
             <br />
             .DEV
           </h1>
-          <h4>FULL STACK WEB DEVELOPMENT</h4>
+          </div>
+          <h4 id="fullstack">FULL STACK WEB DEVELOPMENT</h4>
           <p id="poweredby">
             {this.state.isHovering && (
               <i className="fab fa-react fa-lg fa-spin"></i>

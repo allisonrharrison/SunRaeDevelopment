@@ -13,9 +13,9 @@ import { Fade } from "react-reveal";
 class School extends React.Component {
   render() {
     return (
-      <div className="panel">
+      <div className="mb-5">
         <Fade>
-          <Card style={{ border: "none" }}>
+          <div>
             <CardTitle>
             <h3 className="mb-5">SCHOOL PROJECTS</h3>
             </CardTitle>
@@ -36,7 +36,7 @@ class School extends React.Component {
                   </a>
                   <CardBody>
                     <CardTitle>
-                      <h5>bootstrap course</h5>
+                      <h6>bootstrap course</h6>
                     </CardTitle>
                     <CardText>
                       <p>
@@ -84,7 +84,7 @@ class School extends React.Component {
                   </a>
                   <CardBody>
                     <CardTitle>
-                      <h5>react course</h5>
+                      <h6>react course</h6>
                     </CardTitle>
                     <CardText>
                       <p>
@@ -126,7 +126,7 @@ class School extends React.Component {
                   </a>
                   <CardBody>
                     <CardTitle>
-                      <h5>react native course</h5>
+                      <h6>react native course</h6>
                     </CardTitle>
                     <CardText>
                       <p>
@@ -169,7 +169,7 @@ class School extends React.Component {
               </a>
               <CardBody>
                 <CardTitle>
-                  <h5>express server</h5>
+                  <h6>express server</h6>
                 </CardTitle>
                 <CardText>
                   <p>
@@ -197,7 +197,7 @@ class School extends React.Component {
             </Card>*/}
               </CardDeck>
             </CardBody>
-          </Card>
+          </div>
         </Fade>
       </div>
     );
