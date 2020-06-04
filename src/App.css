@@ -12,23 +12,23 @@ body {
 }
 
 #sun {
-  width: 50rem;
-  height: 25rem;
+  max-width: 100vh;
+  height: 50vh;
   background-color: orange;
-  border-top-left-radius: 25rem;
-  border-top-right-radius: 25rem;
+  border-top-left-radius: 100vh;
+  border-top-right-radius: 100vh;
   margin: 0 auto;
+  padding-top: 1.5rem;
   margin-top: 1rem;
-  padding: 4rem;
 }
 
-h1 {
+#logo {
   color: #c763b0;
   font-family: Cleveland;
   text-align: center;
   font-weight: 800;
   line-height: 1.5rem;
-  margin-top: 1rem;
+  transform: scale(0.7);
 }
 
 h3 {
@@ -178,13 +178,12 @@ i {
 
 .proj {
   background-color: #241b30;
-  box-shadow: 5px 5px 7px #241b30;
   transition: all 0.2s ease-in-out;
-  border: none;
+  border: 1px solid black;
 }
 
 .proj:hover {
-  box-shadow: 5px 5px 12px #241b30;
+  box-shadow: 5px 5px 12px #110c16;
   transform: scale(1.05);
 }
 
@@ -255,4 +254,9 @@ html.sr .load-hidden {
 
 strong {
   color: #c763b0;
+}
+
+.skill-icons {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
