@@ -1,3 +1,86 @@
+@media screen and (max-width: 576px) {
+  div#sun {
+    height: 29vh;
+    padding-top: 2rem;
+  }
+  h1.logo {
+    font-size: 19vw;
+    line-height: 12vw;
+  }
+  h4#fullstack {
+    margin-top: 1rem;
+    font-size: 6vw;
+  }
+  a.poweredby,
+  p.poweredby {
+    font-size: 3.5vw;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px)
+{
+  div#sun {
+    height: 31vh;
+    padding-top: 4rem;
+  }
+  h1.logo {
+    font-size: 15vw;
+    line-height: 10vw;
+  }
+  h4#fullstack {
+    margin-top: 1rem;
+    font-size: 5.5vw;
+  }
+  a.poweredby,
+  p.poweredby {
+    font-size: 3.5vw;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 992px)
+{
+  div#sun {
+    height: 37vh;
+    padding-top: 4rem;
+  }
+  h1.logo {
+    font-size: 15vw;
+    line-height: 10vw;
+  }
+  h4#fullstack {
+    margin-top: 1rem;
+    font-size: 4vw;
+  }
+  a.poweredby,
+  p.poweredby {
+    font-size: 3vw;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1200px)
+{
+  div#sun {
+    height: 50vh;
+    padding-top: 3rem;
+  }
+  h1.logo {
+    font-size: 8.5vw;
+    line-height: 5.5vw;
+  }
+  h4#fullstack {
+    margin-top: 1rem;
+    font-size: 2vw;
+  }
+  a.poweredby,
+  p.poweredby {
+    font-size: 1.25vw;
+    text-align: center;
+  }
+}
+
 @font-face {
   font-family: "Cleveland";
   src: url("fonts/Cleveland.ttf");
@@ -11,6 +94,10 @@ body {
   background-color: #252335;
 }
 
+#home {
+  padding-top: 1.5rem;
+}
+
 #sun {
   max-width: 100vh;
   height: 50vh;
@@ -18,17 +105,20 @@ body {
   border-top-left-radius: 100vh;
   border-top-right-radius: 100vh;
   margin: 0 auto;
-  padding-top: 1.5rem;
-  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 3rem;
 }
 
-#logo {
+h1 {
   color: #c763b0;
   font-family: Cleveland;
   text-align: center;
-  font-weight: 800;
-  line-height: 1.5rem;
-  transform: scale(0.7);
+  text-transform: uppercase;
+  font-size: 10vw;
+  line-height: 6.5vw;
 }
 
 h3 {
@@ -197,13 +287,6 @@ i {
   color: steelblue;
 }
 
-#logo {
-  text-transform: uppercase;
-  font-size: 120px;
-  line-height: 0.75;
-  padding-top: 1.5rem;
-}
-
 html.sr .load-hidden {
   visibility: hidden;
 }
@@ -235,13 +318,6 @@ html.sr .load-hidden {
 
 #navbarbrand {
   color: #000000;
-}
-
-#navbarlogo {
-  font-family: "Caveat Brush";
-  letter-spacing: 0.5px;
-  color: steelblue;
-  font-size: 25px;
 }
 
 .menu {

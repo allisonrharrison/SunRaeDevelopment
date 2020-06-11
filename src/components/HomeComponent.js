@@ -28,16 +28,12 @@ class Home extends Component {
         <div className="mb-5" id="home">
           <Fade>
             <div id="sun">
-              <p id="logo">
-                sun
-                <br />
-                rae
-                <br />
-                dev
-              </p>
+            <h1 className="logo">sun</h1>
+            <h1 className="logo">rae</h1>
+            <h1 className="logo">dev</h1>
             </div>
             <h4 id="fullstack">FULL-STACK WEB & MOBILE DEVELOPMENT</h4>
-            <p id="poweredby">
+            <p className="poweredby">
               {this.state.isHovering && (
                 <i className="fab fa-react fa-lg fa-spin"></i>
               )}
@@ -45,10 +41,11 @@ class Home extends Component {
               POWERED BY{" "}
               <span
                 id="react"
+                className="poweredby"
                 onMouseEnter={this.handleMouseHover}
                 onMouseLeave={this.handleMouseHover}
               >
-                <a href="https://reactjs.org/">REACT.js</a>
+                <a className="poweredby" href="https://reactjs.org/">REACT.js</a>
               </span>
             </p>
           </Fade>
