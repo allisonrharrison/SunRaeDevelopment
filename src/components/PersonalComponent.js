@@ -118,7 +118,7 @@ class Personal extends React.Component {
                   <a href="https://sunrae.dev">
                     <CardImg
                       top
-                      src={require("../img/sunraedev_cardsize.png")}
+                      src={require("../img/sunraedev-cardsize.png")}
                       alt="Card image cap"
                       height="180px"
                       width="318px"
