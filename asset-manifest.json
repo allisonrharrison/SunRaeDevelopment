@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.03f78e8b.chunk.css",
-    "main.js": "/static/js/main.5b3879c2.chunk.js",
-    "main.js.map": "/static/js/main.5b3879c2.chunk.js.map",
+    "main.js": "/static/js/main.3f5e2f03.chunk.js",
+    "main.js.map": "/static/js/main.3f5e2f03.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.33a8e104.js",
     "runtime-main.js.map": "/static/js/runtime-main.33a8e104.js.map",
-    "static/js/2.8683f501.chunk.js": "/static/js/2.8683f501.chunk.js",
-    "static/js/2.8683f501.chunk.js.map": "/static/js/2.8683f501.chunk.js.map",
+    "static/js/2.82344490.chunk.js": "/static/js/2.82344490.chunk.js",
+    "static/js/2.82344490.chunk.js.map": "/static/js/2.82344490.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.fdd9849d56e5c7ded95543eec1663406.js": "/precache-manifest.fdd9849d56e5c7ded95543eec1663406.js",
+    "precache-manifest.a553560a1ca61cf2ec435821eeedd00f.js": "/precache-manifest.a553560a1ca61cf2ec435821eeedd00f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.03f78e8b.chunk.css.map": "/static/css/main.03f78e8b.chunk.css.map",
-    "static/js/2.8683f501.chunk.js.LICENSE": "/static/js/2.8683f501.chunk.js.LICENSE",
+    "static/js/2.82344490.chunk.js.LICENSE": "/static/js/2.82344490.chunk.js.LICENSE",
     "static/media/App.css": "/static/media/Cleveland.382274a2.ttf",
     "static/media/allison2.jpg": "/static/media/allison2.1ceec221.jpg",
     "static/media/bootstrap_cardsize.png": "/static/media/bootstrap_cardsize.48c51c52.png",
@@ -23,12 +23,12 @@
     "static/media/nativeapp_cardsize.png": "/static/media/nativeapp_cardsize.752e1d30.png",
     "static/media/reactcourse_screenshot.png": "/static/media/reactcourse_screenshot.e58706cf.png",
     "static/media/rockpaperscissors_cardsize.png": "/static/media/rockpaperscissors_cardsize.728be08b.png",
-    "static/media/sunraedev_cardsize.png": "/static/media/sunraedev_cardsize.1c0705a6.png"
+    "static/media/sunraedev-cardsize.png": "/static/media/sunraedev-cardsize.ea05db8b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.33a8e104.js",
-    "static/js/2.8683f501.chunk.js",
+    "static/js/2.82344490.chunk.js",
     "static/css/main.03f78e8b.chunk.css",
-    "static/js/main.5b3879c2.chunk.js"
+    "static/js/main.3f5e2f03.chunk.js"
   ]
 }

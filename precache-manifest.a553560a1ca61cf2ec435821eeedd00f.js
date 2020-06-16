@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8203e163cdea521902d4d63f0f6f8f96",
+    "revision": "40ad26b59a250b63c79a098649f63220",
     "url": "/index.html"
   },
   {
-    "revision": "04873366ae01fb243905",
+    "revision": "d63d29c14a59c3a63999",
     "url": "/static/css/main.03f78e8b.chunk.css"
   },
   {
-    "revision": "af74d3c253227f444106",
-    "url": "/static/js/2.8683f501.chunk.js"
+    "revision": "dd77b43d136db752cfd3",
+    "url": "/static/js/2.82344490.chunk.js"
   },
   {
     "revision": "f032203ca460334c00de541c30a6078a",
-    "url": "/static/js/2.8683f501.chunk.js.LICENSE"
+    "url": "/static/js/2.82344490.chunk.js.LICENSE"
   },
   {
-    "revision": "04873366ae01fb243905",
-    "url": "/static/js/main.5b3879c2.chunk.js"
+    "revision": "d63d29c14a59c3a63999",
+    "url": "/static/js/main.3f5e2f03.chunk.js"
   },
   {
     "revision": "a0a65d26bd9ed1af549b",
@@ -124,7 +124,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/rockpaperscissors_cardsize.728be08b.png"
   },
   {
-    "revision": "1c0705a644d24056250a5bb3eec669f1",
-    "url": "/static/media/sunraedev_cardsize.1c0705a6.png"
+    "revision": "ea05db8bd3846f98b90a35f9013b9aa1",
+    "url": "/static/media/sunraedev-cardsize.ea05db8b.png"
   }
 ]);
