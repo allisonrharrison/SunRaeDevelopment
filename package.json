@@ -10,12 +10,13 @@
     "dot-prop": "^4.2.1",
     "lodash": "^4.17.19",
     "minimist": "^1.2.3",
-    "node-forge": "^0.9.0",
+    "node-forge": "0.10.0",
     "object-path": "^0.11.5",
     "react": "^16.12.0",
+    "react-dev-utils": "^11.0.1",
     "react-dom": "^16.12.0",
     "react-reveal": "^1.2.2",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "^4.0.1",
     "reactstrap": "^8.4.0",
     "serialize-javascript": "^3.1.0",
     "typescript": "^4.1.2",
@@ -43,9 +44,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "resolutions": {
-    "react-dev-utils": "10.1.0"
   },
   "devDependencies": {
     "gh-pages": "^2.2.0"
