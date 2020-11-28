@@ -10,7 +10,11 @@
     "dot-prop": "^4.2.1",
     "lodash": "^4.17.19",
     "minimist": "^1.2.3",
+<<<<<<< HEAD
     "node-forge": "0.10.0",
+=======
+    "node-forge": "^0.10.0",
+>>>>>>> 43114dd70f9208343cebb9fab533ebafcdc576b5
     "object-path": "^0.11.5",
     "react": "^16.12.0",
     "react-dev-utils": "^11.0.1",
