@@ -1,18 +1,20 @@
 import React, { Component } from "react";
+import { Col, Container, Row } from "reactstrap";
 import Home from "./HomeComponent";
-import Projects from "./ProjectsComponent";
+import Portfolio from "./PortfolioComponent";
 import About from "./AboutComponent";
 import Contact from "./ContactComponent";
-import Navigation from "./NavComponent";
+import { Navigation } from "./NavComponent";
 
 class Main extends Component {
 
   render() {
     return(
-      <div className="container">
+      <div id="content-body">
+      <Navigation />
       <Home />
       <About />
-      <Projects />
+      <Portfolio />
       <Contact />
       </div>
     )

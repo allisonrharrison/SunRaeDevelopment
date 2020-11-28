@@ -24,7 +24,7 @@ class Home extends Component {
 
   render() {
     return (
-      <Container>
+      <div>
         <div className="mb-5" id="home">
           <Fade>
             <div id="sun">
@@ -50,7 +50,7 @@ class Home extends Component {
             </p>
           </Fade>
         </div>
-      </Container>
+      </div>
     );
   }
 }

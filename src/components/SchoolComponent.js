@@ -13,7 +13,7 @@ import { Fade } from "react-reveal";
 class School extends React.Component {
   render() {
     return (
-      <div className="mb-5">
+      <div id="school-projects" className="mb-5">
         <Fade>
           <div>
             <CardTitle>
