@@ -18,8 +18,7 @@
   }
 }
 
-@media screen and (min-width: 768px)
-{
+@media screen and (min-width: 768px) {
   div#sun {
     height: 31vh;
     padding-top: 4rem;
@@ -39,8 +38,7 @@
   }
 }
 
-@media screen and (min-width: 992px)
-{
+@media screen and (min-width: 992px) {
   div#sun {
     height: 37vh;
     padding-top: 4rem;
@@ -60,8 +58,7 @@
   }
 }
 
-@media screen and (min-width: 1200px)
-{
+@media screen and (min-width: 1200px) {
   div#sun {
     height: 50vh;
     padding-top: 3rem;
@@ -90,12 +87,34 @@ body {
   background-color: #241b30;
 }
 
-.container {
+#content-body {
   background-color: #252335;
 }
 
 #home {
-  padding-top: 1.5rem;
+  padding-top: 25vh;
+  padding-bottom: 25vh;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 999;
+  background-color: #241b30;
+  left: 0;
+  width: 100%;
+}
+
+#navbarbrand {
+  color: orange;
+}
+
+.navlink {
+  margin-left: 2rem;
+  border-bottom: 1px solid #241b30;
+}
+
+.navlink:hover {
+  border-bottom: 1px solid #55cb89 !important;
 }
 
 #sun {
@@ -184,63 +203,6 @@ i {
   color: #1bacc3;
 }
 
-.v-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  margin-bottom: 0;
-  z-index: 2;
-  width: 100%;
-}
-
-.v-navlink {
-  color: #000000;
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-
-.v-navlink:hover {
-  text-decoration: none;
-  animation-name: pulldown;
-  animation-duration: 0.25s;
-  border-top: 6px solid #4682b4;
-}
-
-@keyframes pulldown {
-  0% {
-    border-top: 0px solid #ffffff;
-  }
-  10% {
-    border-top: 0.5px solid #f0f5f9;
-  }
-  20% {
-    border-top: 1px solid #d1e0ec;
-  }
-  30% {
-    border-top: 1.5px solid #b2cbe0;
-  }
-  40% {
-    border-top: 2px solid #a2c1da;
-  }
-  50% {
-    border-top: 2.5px solid #93b6d3;
-  }
-  60% {
-    border-top: 3px solid #84accd;
-  }
-  70% {
-    border-top: 3.5px solid #74a1c7;
-  }
-  80% {
-    border-top: 4px solid #6597c1;
-  }
-  90% {
-    border-top: 4.5px solid #558cba;
-  }
-  100% {
-    border-top: 5px solid #4682b4;
-  }
-}
-
 #poweredby {
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
@@ -314,10 +276,6 @@ html.sr .load-hidden {
   font-size: 1rem;
   text-align: left;
   background-color: #252335;
-}
-
-#navbarbrand {
-  color: #000000;
 }
 
 .menu {
