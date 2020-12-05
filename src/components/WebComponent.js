@@ -28,7 +28,7 @@ class Web extends React.Component {
                   >
                     <CardImg
                       top
-                      src={require("../img/mindseye_cardsize.png")}
+                      src={require("../img/mindseye_cardsize.png").default}
                       alt="Card image cap"
                       height="180px"
                       width="318px"
@@ -73,7 +73,7 @@ class Web extends React.Component {
                   >
                     <CardImg
                       top
-                      src={require("../img/ilnp_cardsize.png")}
+                      src={require("../img/ilnp_cardsize.png").default}
                       alt="Card image cap"
                       height="180px"
                       width="318px"
@@ -118,7 +118,7 @@ class Web extends React.Component {
                   <a href="https://sunrae.dev">
                     <CardImg
                       top
-                      src={require("../img/sunraedev-cardsize.png")}
+                      src={require("../img/sunraedev-cardsize.png").default}
                       alt="Card image cap"
                       height="180px"
                       width="318px"

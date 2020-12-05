@@ -26,7 +26,7 @@ class Games extends React.Component {
                   >
                     <CardImg
                       top
-                      src={require("../img/leapyear_screenshot.png")}
+                      src={require("../img/leapyear_screenshot.png").default}
                       alt="Card image cap"
                       height="180px"
                       width="318px"
@@ -63,7 +63,7 @@ class Games extends React.Component {
                   >
                     <CardImg
                       top
-                      src={require("../img/eightball_cardsize.png")}
+                      src={require("../img/eightball_cardsize.png").default}
                       alt="Card image cap"
                       height="180px"
                       width="318px"
@@ -100,7 +100,7 @@ class Games extends React.Component {
                   >
                     <CardImg
                       top
-                      src={require("../img/rockpaperscissors_cardsize.png")}
+                      src={require("../img/rockpaperscissors_cardsize.png").default}
                       alt="Card image cap"
                       height="180px"
                       width="318px"

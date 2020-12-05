@@ -12,7 +12,7 @@ function About() {
             <img
               id="allison"
               className="mb-5"
-              src={require("../img/allison_umbrella.jpg")}
+              src={require("../img/allison_umbrella.jpg").default}
             />
           </Col>
           <Col sm="5" id="txtcontainer">

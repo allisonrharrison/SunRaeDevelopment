@@ -29,7 +29,7 @@ class School extends React.Component {
                   >
                     <CardImg
                       top
-                      src={require("../img/bootstrap_cardsize.png")}
+                      src={require("../img/bootstrap_cardsize.png").default}
                       alt="Card image cap"
                       height="180px" width="318px"
                     />
@@ -77,7 +77,7 @@ class School extends React.Component {
                   >
                     <CardImg
                       top
-                      src={require("../img/reactcourse_screenshot.png")}
+                      src={require("../img/reactcourse_screenshot.png").default}
                       alt="Card image cap"
                       height="180px" width="318px"
                     />
@@ -122,7 +122,7 @@ class School extends React.Component {
                     href="https://snack.expo.io/@allisonrharrison/1e6972"
                     target="_blank"
                   >
-                    <CardImg top src={require("../img/nativeapp_cardsize.png")} alt="Card image cap" height="180px" width="318px"/>
+                    <CardImg top src={require("../img/nativeapp_cardsize.png").default} alt="Card image cap" height="180px" width="318px"/>
                   </a>
                   <CardBody>
                     <CardTitle>
