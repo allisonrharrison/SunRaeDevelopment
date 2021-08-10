@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.5fb92d33.chunk.css",
+    "main.css": "/static/css/main.d64ca6f7.chunk.css",
     "main.js": "/static/js/main.2cf67168.chunk.js",
     "main.js.map": "/static/js/main.2cf67168.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fb17660d.js",
@@ -8,7 +8,7 @@
     "static/js/2.47d57b32.chunk.js": "/static/js/2.47d57b32.chunk.js",
     "static/js/2.47d57b32.chunk.js.map": "/static/js/2.47d57b32.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.5fb92d33.chunk.css.map": "/static/css/main.5fb92d33.chunk.css.map",
+    "static/css/main.d64ca6f7.chunk.css.map": "/static/css/main.d64ca6f7.chunk.css.map",
     "static/js/2.47d57b32.chunk.js.LICENSE.txt": "/static/js/2.47d57b32.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/Cleveland.79ee97fe.ttf",
     "static/media/allison_umbrella.jpg": "/static/media/allison_umbrella.536cf44c.jpg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.fb17660d.js",
     "static/js/2.47d57b32.chunk.js",
-    "static/css/main.5fb92d33.chunk.css",
+    "static/css/main.d64ca6f7.chunk.css",
     "static/js/main.2cf67168.chunk.js"
   ]
 }
