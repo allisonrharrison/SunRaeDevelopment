@@ -1,121 +1,74 @@
-@media screen and (max-width: 576px) {
-  div#sun {
-    height: 29vh;
-    padding-top: 2rem;
-  }
-  h1.logo {
-    font-size: 19vw;
-    line-height: 12vw;
-  }
-  h4#fullstack {
-    margin-top: 1rem;
-    font-size: 6vw;
-  }
-  a.poweredby,
-  p.poweredby {
-    font-size: 3.5vw;
-    text-align: center;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  div#sun {
-    height: 31vh;
-    padding-top: 4rem;
-  }
-  h1.logo {
-    font-size: 15vw;
-    line-height: 10vw;
-  }
-  h4#fullstack {
-    margin-top: 1rem;
-    font-size: 5.5vw;
-  }
-  a.poweredby,
-  p.poweredby {
-    font-size: 3.5vw;
-    text-align: center;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  div#sun {
-    height: 37vh;
-    padding-top: 4rem;
-  }
-  h1.logo {
-    font-size: 15vw;
-    line-height: 10vw;
-  }
-  h4#fullstack {
-    margin-top: 1rem;
-    font-size: 4vw;
-  }
-  a.poweredby,
-  p.poweredby {
-    font-size: 3vw;
-    text-align: center;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  div#sun {
-    height: 50vh;
-    padding-top: 3rem;
-  }
-  h1.logo {
-    font-size: 8.5vw;
-    line-height: 5.5vw;
-  }
-  h4#fullstack {
-    margin-top: 1rem;
-    font-size: 2vw;
-  }
-  a.poweredby,
-  p.poweredby {
-    font-size: 1.25vw;
-    text-align: center;
-  }
-}
-
 @font-face {
   font-family: "Cleveland";
   src: url("fonts/Cleveland.ttf");
 }
 
+@font-face {
+  font-family: "Menlo";
+  src: url("fonts/Menlo-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Metrophobic";
+  src: url("fonts/Metrophobic-Regular.ttf");
+}
+
 body {
-  background-color: #241b30;
+  background-color: #050f11;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 #content-body {
-  background-color: #252335;
+  margin: 0 auto;
+  min-height: 55vh;
 }
 
-#home {
-  padding-top: 25vh;
-  padding-bottom: 25vh;
+#component-row {
+  justify-content: center;
 }
 
-.navbar {
-  position: fixed;
-  z-index: 999;
-  background-color: #241b30;
-  left: 0;
-  width: 100%;
-}
-
-#navbarbrand {
+h1.page-title {
   color: orange;
+  font-size: 42px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-.navlink {
-  margin-left: 2rem;
-  border-bottom: 1px solid #241b30;
+h1.page-title:before,
+h1.page-title:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid #c763b0;
+  margin: auto;
 }
 
-.navlink:hover {
-  border-bottom: 1px solid #55cb89 !important;
+p,
+li {
+  color: #c4c3d0;
+  font-family: "Metrophobic", monospace;
+  font-size: 22px;
 }
+
+.tt-inner {
+  font-family: "Menlo", monospace !important;
+  border: 1px solid #282a36 !important;
+  color: #adadad !important;
+  font-size: 14px !important;
+}
+
+@media screen and (max-width: 767px) {
+  h1.page-title {
+    font-size: 30px;
+  }
+}
+
+/*
 
 #sun {
   max-width: 100vh;
@@ -294,3 +247,104 @@ strong {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 767px) {
+  div#sun {
+    height: 29vh;
+    padding-top: 2rem;
+  }
+  h1.logo {
+    font-size: 19vw;
+    line-height: 12vw;
+  }
+  h4#fullstack {
+    margin-top: 1rem;
+    font-size: 6vw;
+  }
+  a.poweredby,
+  p.poweredby {
+    font-size: 3.5vw;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  div#sun {
+    height: 37vh;
+    padding-top: 4rem;
+  }
+  h1.logo {
+    font-size: 15vw;
+    line-height: 10vw;
+  }
+  h4#fullstack {
+    margin-top: 1rem;
+    font-size: 4vw;
+  }
+  a.poweredby,
+  p.poweredby {
+    font-size: 3vw;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  div#sun {
+    height: 50vh;
+    padding-top: 4rem;
+  }
+  h1.logo {
+    font-size: 15vw;
+    line-height: 10vw;
+  }
+  h4#fullstack {
+    margin-top: 1rem;
+    font-size: 4vw;
+  }
+  a.poweredby,
+  p.poweredby {
+    font-size: 3vw;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  div#sun {
+    height: 50vh;
+    padding-top: 3rem;
+  }
+  h1.logo {
+    font-size: 12vw;
+    line-height: 8vw;
+  }
+  h4#fullstack {
+    margin-top: 1rem;
+    font-size: 2vw;
+  }
+  a.poweredby,
+  p.poweredby {
+    font-size: 1.25vw;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  div#sun {
+    height: 50vh;
+    padding-top: 3rem;
+  }
+  h1.logo {
+    font-size: 8.5vw;
+    line-height: 5.5vw;
+  }
+  h4#fullstack {
+    margin-top: 1rem;
+    font-size: 2vw;
+  }
+  a.poweredby,
+  p.poweredby {
+    font-size: 1.25vw;
+    text-align: center;
+  }
+}
+*/

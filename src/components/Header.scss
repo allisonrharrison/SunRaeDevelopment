@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Cleveland";
+  src: url("../fonts/Cleveland.ttf");
+}
+
+#header {
+  width: 100%;
+  .header-container {
+    background-color: #050f11;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .headshot-container {
+      height: 80%;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      a {
+        height: 65%;
+        width: auto;
+        img {
+          height: 100%;
+          width: auto;
+          border-radius: 100%;
+          border: 5px solid orange;
+        }
+      }
+    }
+    .headline-container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      #hi {
+        width: 100%;
+        p {
+          color: #c763b0;
+          font-family: "Josefin Sans", sans-serif;
+          font-size: 32px;
+          text-align: left;
+        }
+      }
+
+      #name-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1 {
+          font-family: "Cleveland", sans-serif;
+          color: #1bacc3;
+          font-size: 96px;
+
+          .s {
+            color: orange;
+          }
+        }
+        #she {
+          width: 530px;
+          p {
+            color: #c763b0;
+            font-family: "Josefin Sans", sans-serif;
+            font-size: 18px;
+            text-align: center;
+          }
+          .web-dev {
+            color: #1bacc3;
+          }
+          .bull {
+            color: #8270db;
+          }
+        }
+
+        #o-u,
+        #n-rae {
+          h1 {
+            color: #ffa500;
+          }
+        }
+        #o-u {
+          overflow-y: hidden;
+          .main {
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+}

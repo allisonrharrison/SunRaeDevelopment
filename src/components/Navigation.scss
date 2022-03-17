@@ -1,0 +1,110 @@
+@use "../sass/variables" as v;
+
+.pro-sidebar {
+  width: 100%;
+}
+
+.pro-sidebar-inner {
+  background: #050f11 !important;
+  border-right: 1px solid v.$gray;
+}
+
+.pro-icon-wrapper {
+  background-color: #050f11 !important;
+  font-size: 18px !important;
+  color: #787784;
+}
+
+.pro-inner-item {
+  &:hover {
+    .pro-icon-wrapper {
+      color: #ffffff;
+    }
+    .pro-item-content {
+      color: #ffffff;
+    }
+  }
+}
+
+.pro-sidebar-header {
+  padding: 20px 0px;
+  .sunrae,
+  .dev {
+    font-family: "Cleveland";
+    font-size: 30px;
+  }
+
+  .sunrae {
+    color: v.$orange;
+  }
+
+  .dev {
+    color: v.$blue;
+  }
+}
+
+.pro-sidebar-content {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  .pro-item-content {
+    font-family: Josefin Sans, sans-serif;
+    text-transform: uppercase;
+  }
+}
+
+.pro-sidebar-footer {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  .pro-item-content {
+    font-family: Josefin Sans, sans-serif;
+    text-transform: uppercase;
+  }
+}
+
+.home-active {
+  .pro-inner-item {
+    .pro-icon-wrapper {
+      color: v.$pink;
+    }
+    .pro-item-content {
+      color: v.$pink;
+    }
+  }
+}
+.about-active {
+  .pro-inner-item {
+    .pro-icon-wrapper {
+      color: v.$purple;
+    }
+    .pro-item-content {
+      color: v.$purple;
+    }
+  }
+}
+
+.work-active {
+  .pro-inner-item {
+    .pro-icon-wrapper {
+      color: v.$blue;
+    }
+    .pro-item-content {
+      color: v.$blue;
+    }
+  }
+}
+
+.contact-active {
+  .pro-inner-item {
+    .pro-icon-wrapper {
+      color: v.$green;
+    }
+    .pro-item-content {
+      color: v.$green;
+    }
+  }
+}

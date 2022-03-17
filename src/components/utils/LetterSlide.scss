@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Cleveland";
+  src: url("../../fonts/Cleveland.ttf");
+}
+
+h1 {
+  color: orange;
+  font-size: 96px;
+  font-family: "Cleveland", sans-serif;
+  margin-bottom: 0;
+
+  &.u {
+    margin: 0px 6.3px;
+  }
+
+  .fas.fa-sun {
+    width: 77px;
+    font-size: 77px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    font-size: 72px;
+
+    .fas.fa-sun {
+      width: 60.84px;
+      font-size: 60.84px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    font-size: 54px;
+
+    .fas.fa-sun {
+      width: 48.78px;
+      font-size: 48.78px;
+    }
+  }
+}
+
+.fade-enter {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0%);
+}
+.fade-exit {
+  opacity: 1;
+  transform: translateY(0%);
+}
+.fade-exit-active {
+  opacity: 0;
+  transform: translateY(100%);
+}
+.fade-enter-active,
+.fade-exit-active {
+  transition: opacity 500ms, transform 500ms;
+}
+
+@media screen and (max-width: 767px) {
+  .main {
+    overflow: hidden;
+    height: 64.8px;
+    display: flex;
+    align-items: center;
+  }
+}

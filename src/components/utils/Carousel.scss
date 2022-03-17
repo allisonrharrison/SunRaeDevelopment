@@ -1,0 +1,20 @@
+.carousel-root {
+  width: 50%;
+  margin: 0 auto;
+  .car-slide {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .sql {
+      height: 40px;
+      width: 76px !important;
+    }
+
+    .ts {
+      height: 40px;
+      width: 40px !important;
+    }
+  }
+}
