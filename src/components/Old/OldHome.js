@@ -30,7 +30,7 @@ class OldHome extends Component {
 
   render() {
     return (
-      <div>
+      <>
         <div id="old-home">
           <Fade>
             <div className="mobile-full">
@@ -67,7 +67,7 @@ class OldHome extends Component {
             </div>
           </Fade>
         </div>
-      </div>
+      </>
     )
   }
 }
