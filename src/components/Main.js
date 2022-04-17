@@ -7,12 +7,14 @@ import Home from './Home'
 import Navigation from './Navigation'
 import Portfolio from './Portfolio'
 import OldHome from './Old/OldHome'
+import ScrollToTop from './ScrollToTop'
 
 class Main extends Component {
   render () {
     return (
       <div id="main">
         <Router>
+          <ScrollToTop />
             <Switch>
           <Route exact path="/">
             <OldHome />

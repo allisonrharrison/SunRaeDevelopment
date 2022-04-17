@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Fade, Slide } from "react-reveal";
 import { NavLink } from "react-router-dom";
 import {
@@ -13,6 +13,7 @@ import {
 import "./Portfolio.scss";
 
 class Portfolio extends React.Component {
+
   render() {
     return (
       <div id="portfolio" className="mt-5">
