@@ -8,6 +8,7 @@ import Navigation from './Navigation'
 import Portfolio from './Portfolio'
 import OldHome from './Old/OldHome'
 import ScrollToTop from './ScrollToTop'
+import '../App.css'
 
 class Main extends Component {
   render () {

@@ -31,7 +31,7 @@ class OldHome extends Component {
   render() {
     return (
       <div>
-        <div className="mb-5" id="old-home">
+        <div id="old-home">
           <Fade>
             <div className="mobile-full">
             <img src={require('../../img/headshot200.jpg').default} />

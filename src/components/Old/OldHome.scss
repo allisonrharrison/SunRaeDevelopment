@@ -2,12 +2,21 @@
 
 #old-home {
   display: flex;
-  min-height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 80%;
   margin: 0 auto;
+  padding: 50px 0;
+
+  @media screen and (max-width: 767px) {
+    max-height: unset;
+    min-height: 100vh;
+    overflow-x: scroll;
+    padding: 0;
+}
 
   .mobile-full {
       display: flex;
