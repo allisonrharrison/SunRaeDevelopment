@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.5a8455bf.chunk.css",
-    "main.js": "/static/js/main.d8162727.chunk.js",
-    "main.js.map": "/static/js/main.d8162727.chunk.js.map",
+    "main.css": "/static/css/main.296548c4.chunk.css",
+    "main.js": "/static/js/main.758765cd.chunk.js",
+    "main.js.map": "/static/js/main.758765cd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19a76d93.js",
     "runtime-main.js.map": "/static/js/runtime-main.19a76d93.js.map",
     "static/css/2.3e079137.chunk.css": "/static/css/2.3e079137.chunk.css",
-    "static/js/2.1b919083.chunk.js": "/static/js/2.1b919083.chunk.js",
-    "static/js/2.1b919083.chunk.js.map": "/static/js/2.1b919083.chunk.js.map",
+    "static/js/2.d2bae398.chunk.js": "/static/js/2.d2bae398.chunk.js",
+    "static/js/2.d2bae398.chunk.js.map": "/static/js/2.d2bae398.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.3e079137.chunk.css.map": "/static/css/2.3e079137.chunk.css.map",
-    "static/css/main.5a8455bf.chunk.css.map": "/static/css/main.5a8455bf.chunk.css.map",
-    "static/js/2.1b919083.chunk.js.LICENSE.txt": "/static/js/2.1b919083.chunk.js.LICENSE.txt",
+    "static/css/main.296548c4.chunk.css.map": "/static/css/main.296548c4.chunk.css.map",
+    "static/js/2.d2bae398.chunk.js.LICENSE.txt": "/static/js/2.d2bae398.chunk.js.LICENSE.txt",
     "static/media/Portfolio.scss": "/static/media/vsg-screenshot.bda86c09.png",
+    "static/media/Allison Harrison Resume.bda8d402.docx": "/static/media/Allison Harrison Resume.bda8d402.docx",
     "static/media/LetterSlide.scss": "/static/media/Cleveland.79ee97fe.ttf",
     "static/media/IMG_20210212_205959_785.jpg": "/static/media/IMG_20210212_205959_785.f224954c.jpg",
     "static/media/App.css": "/static/media/Metrophobic-Regular.f02d8aab.ttf",
@@ -22,15 +23,13 @@
     "static/media/headshot200.jpg": "/static/media/headshot200.b6080bfd.jpg",
     "static/media/mongodb-icon.svg": "/static/media/mongodb-icon.0781b723.svg",
     "static/media/redux-seeklogo.com 2.svg": "/static/media/redux-seeklogo.com 2.a9567540.svg",
-    "static/media/resume-1pg.90b35270.pdf": "/static/media/resume-1pg.90b35270.pdf",
-    "static/media/resumeSample.32661c94.pdf": "/static/media/resumeSample.32661c94.pdf",
     "static/media/sql.svg": "/static/media/sql.a1b41aa9.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.19a76d93.js",
     "static/css/2.3e079137.chunk.css",
-    "static/js/2.1b919083.chunk.js",
-    "static/css/main.5a8455bf.chunk.css",
-    "static/js/main.d8162727.chunk.js"
+    "static/js/2.d2bae398.chunk.js",
+    "static/css/main.296548c4.chunk.css",
+    "static/js/main.758765cd.chunk.js"
   ]
 }
