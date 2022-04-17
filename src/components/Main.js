@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as HashRouter, Route, Switch } from 'react-router-dom'
 import { Col, Row } from 'reactstrap'
 import About from './About'
 import Contact from './Contact'
@@ -12,7 +12,7 @@ class Main extends Component {
   render () {
     return (
       <div id="main">
-        <Router basename={process.env.PUBLIC_URL}>
+        <HashRouter>
             <Switch>
           <Route exact path="/">
             <OldHome />
@@ -27,7 +27,7 @@ class Main extends Component {
             <Contact />
           </Route>
         </Switch>
-        </Router>
+        </HashRouter>
       </div>
     )
   }
