@@ -1,3 +1,5 @@
+@use "../sass/variables" as v;
+
 .contact {
   min-height: 100vh;
   overflow: scroll;
@@ -7,7 +9,7 @@
   padding: 50px 0;
 
   a {
-    color: #55cb89;
+    color: v.$green;
     &:hover {
       text-decoration: none;
     }
@@ -17,12 +19,16 @@
     width: 75%;
     margin: 0 auto;
 
+    h3 {
+      color: v.$blue !important;
+    }
+
     @media screen and (max-width: 767px) {
       min-width: 310px;
       width: 90%;
     }
     label {
-      color: #1bacc3;
+      color: v.$blue;
       font-family: Josefin Sans, sans-serif;
       text-transform: uppercase;
       font-size: 16px;
@@ -66,7 +72,7 @@
     select:focus,
     textarea:focus {
       background-color: #000000 !important;
-      border: 1px solid #55cb89 !important;
+      border: 1px solid v.$green !important;
       box-shadow: none !important;
     }
 
@@ -79,7 +85,7 @@
     select:-webkit-autofill,
     select:-webkit-autofill:hover,
     select:-webkit-autofill:focus {
-      border: 1px solid #55cb89 !important;
+      border: 1px solid v.$green !important;
       -webkit-text-fill-color: #ffffff;
       -webkit-box-shadow: none;
       box-shadow: none;

@@ -12,7 +12,7 @@ class Main extends Component {
   render () {
     return (
       <div id="main">
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <Switch>
           <Route exact path="/">
             <OldHome />

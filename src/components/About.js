@@ -13,7 +13,7 @@ import {
   Col,
   Row,
 } from "reactstrap";
-import resume from "../files/resumeSample.pdf";
+import resume from "../files/Allison Harrison Resume.docx";
 import "./About.scss";
 import AccordionComponent from "./utils/Accordion";
 

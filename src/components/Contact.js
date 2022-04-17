@@ -1,12 +1,23 @@
 import emailjs from "emailjs-com";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { Fade, Slide } from "react-reveal";
 import { Button, Col, Form, FormGroup, Input, Label, Row } from "reactstrap";
 import "./Contact.scss";
 import Socials from "./utils/Socials";
 import { NavLink } from "react-router-dom";
 
+const ThankyouMessage = () => {
+  return (
+  <Fade>
+  <div className="contact-form">
+  <h3>Thank you for reaching out!</h3>
+  <p>If requested, I will be in touch with you shortly.</p>
+  </div>
+  </Fade>
+  )}
+
 const Contact = () => {
+  const [submit, setSubmit] = useState(false);
   const form = useRef();
   // Form Submission handler
   const sendEmail = (e) => {
@@ -27,6 +38,7 @@ const Contact = () => {
         }
       );
     e.target.reset();
+    setSubmit(!submit);
   };
 
   return (
@@ -38,6 +50,7 @@ const Contact = () => {
         <Socials />
         </Slide>
       <Fade up delay={500}>
+        {!submit ? (
         <Form className="contact-form" ref={form} onSubmit={sendEmail}>
           <Row form>
             <Col>
@@ -90,6 +103,8 @@ const Contact = () => {
             Submit
           </Button>
         </Form>
+        ) :
+(<ThankyouMessage />)}
       </Fade>
     </div>
   );

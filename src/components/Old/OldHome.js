@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 import Contact from '../Contact'
 import Socials from '../utils/Socials'
 import { HomeLink } from '../Home'
-import resume from '../../files/resume-1pg.pdf'
+import resume from '../../files/Allison Harrison Resume.docx'
 
 class OldHome extends Component {
   constructor(props) {
@@ -48,7 +48,7 @@ class OldHome extends Component {
               <HomeLink
                 href="/portfolio"
                 color="#c763b0"
-                text="VSG Portfolio"
+                text="Portfolio"
               /></Fade>
               <Fade>
               <HomeLink
